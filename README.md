@@ -9,12 +9,15 @@ This SOP provides standardized procedures for managing services (start, stop, re
 
 **2. Prerequisites**
 
-Requirement	Description
-Ubuntu Version	Ubuntu 16.04 or later (Recommended: 20.04, 22.04, or newer)
-systemd	Must be installed (default from Ubuntu 15.04+)
-Sudo Privileges	User must have sudo access to manage services
-Installed Services	The service (e.g., nginx, mysql) should be installed beforehand
-Terminal Access	Access via SSH or local terminal
+
+| Requirement       | Description                                                      |
+|------------------|------------------------------------------------------------------|
+| Ubuntu Version    | Ubuntu 16.04 or later (Recommended: 20.04, 22.04, or newer)      |
+| systemd           | Must be installed (default from Ubuntu 15.04+)                   |
+| Sudo Privileges   | User must have sudo access to manage services                    |
+| Installed Services| The service (e.g., nginx, mysql) should be installed beforehand  |
+| Terminal Access   | Access via SSH or local terminal                                 |
+
 
 
 
