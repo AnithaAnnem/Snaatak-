@@ -23,9 +23,15 @@ This SOP provides standardized procedures for managing services (start, stop, re
 
 
 **3. Definitions**
-Term	Description
-Systemd	The system and service manager used in Ubuntu
-Service	A background process (e.g., Apache, MySQL)
+
+
+
+| Term     | Description                                           |
+|----------|-------------------------------------------------------|
+| systemd  | The system and service manager used in Ubuntu         |
+| Service  | A background process (e.g., Apache, MySQL)            |
+
+
 
 **4.Service Management Commands with systemctl**
 
@@ -61,11 +67,15 @@ sudo systemctl disable <service-name>
 
 
 **5.Troubleshooting**
-Issue	Solution
-Service won't start	Use journalctl -xe to check logs
-Permission denied	Ensure command is run with sudo
-Service not found	Confirm the service is installed (systemctl list-unit-files)
-Changes not applied	Use systemctl daemon-reexec or systemctl daemon-reload
+
+
+| Issue                | Solution                                                           |
+|----------------------|--------------------------------------------------------------------|
+| Service won't start  | Use `journalctl -xe` to check logs                                 |
+| Permission denied    | Ensure the command is run with `sudo`                              |
+| Service not found    | Confirm the service is installed (`systemctl list-unit-files`)     |
+| Changes not applied  | Use `systemctl daemon-reexec` or `systemctl daemon-reload`         |
+
 
 
 
