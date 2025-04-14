@@ -7,6 +7,9 @@
 
 This SOP provides standardized procedures for managing services (start, stop, restart, enable, disable, check status) on Ubuntu OS.
 
+
+
+
 **2. Prerequisites**
 
 
@@ -17,6 +20,10 @@ This SOP provides standardized procedures for managing services (start, stop, re
 | Sudo Privileges   | User must have sudo access to manage services                    |
 | Installed Services| The service (e.g., nginx, mysql) should be installed beforehand  |
 | Terminal Access   | Access via SSH or local terminal                                 |
+
+
+
+
 
 
 
@@ -38,7 +45,7 @@ This SOP provides standardized procedures for managing services (start, stop, re
 
 
 
-**4.Service Management Commands with systemctl**
+**4. Service Management Commands with systemctl**
 
 
 
@@ -109,6 +116,8 @@ This SOP provides standardized procedures for managing services (start, stop, re
     ```bash
     sudo systemctl disable nginx
     ```
+
+
 
 
 
