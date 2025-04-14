@@ -12,6 +12,8 @@ This SOP provides standardized procedures for managing services (start, stop, re
 
 **2. Prerequisites**
 
+To ensure the successful management of the service on Ubuntu, the following prerequisites must be met:
+
 
 | Requirement       | Description                                                      |
 |------------------|------------------------------------------------------------------|
