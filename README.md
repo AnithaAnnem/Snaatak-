@@ -34,60 +34,81 @@ This SOP provides standardized procedures for managing services (start, stop, re
 
 
 
+
+
 **4.Service Management Commands with systemctl**
 
 
-**Check Status of a Service**
-
-It will displays us whether the service active (running)or inactive 
-
-systemctl status <service_name>
-
-**Example**: systemctl status nginx
-
-**Start a Service**
-
-It will start the service immediately
-
-sudo systemctl start <service-name>
-
-**Example**:systemctl status nginx
 
 
-**Stop a Service**
 
-It will stop the running process
+- **Check Status of a Service**  
+  - Displays whether the service is active (running) or inactive.  
+  - **Command**:  
+    ```bash
+    systemctl status <service_name>
+    ```  
+  - **Example**:  
+    ```bash
+    systemctl status nginx
+    ```
 
-sudo systemctl stop <service-name>
+- **Start a Service**  
+  - Starts the service immediately.  
+  - **Command**:  
+    ```bash
+    sudo systemctl start <service-name>
+    ```  
+  - **Example**:  
+    ```bash
+    sudo systemctl start nginx
+    ```
 
-**Example**:sudo systemctl stop nginx
+- **Stop a Service**  
+  - Stops the running service immediately.  
+  - **Command**:  
+    ```bash
+    sudo systemctl stop <service-name>
+    ```  
+  - **Example**:  
+    ```bash
+    sudo systemctl stop nginx
+    ```
+
+- **Restart a Service**  
+  - Stops and then starts the service, useful when changes are made to configuration files.  
+  - **Command**:  
+    ```bash
+    sudo systemctl restart <service-name>
+    ```  
+  - **Example**:  
+    ```bash
+    sudo systemctl restart nginx
+    ```
+
+- **Enable a Service**  
+  - Configures the service to start automatically at system boot.  
+  - **Command**:  
+    ```bash
+    sudo systemctl enable <service-name>
+    ```  
+  - **Example**:  
+    ```bash
+    sudo systemctl enable nginx
+    ```
+
+- **Disable a Service**  
+  - Prevents the service from starting automatically at boot.  
+  - **Command**:  
+    ```bash
+    sudo systemctl disable <service-name>
+    ```  
+  - **Example**:  
+    ```bash
+    sudo systemctl disable nginx
+    ```
 
 
-**Restart a Service**
-
-It is useful to Restart(Stops and then starts) the service and it is very useful command to use whenever we have done any configuration changes.
-
-sudo systemctl restart <service-name>
-
-**Example**:sudo systemctl restart nginx
-
-
-**Enable a Service**
-
-It Enables a service to start automatically on system boot.
-
-sudo systemctl enable <service-name>
-
-**Example**: sudo systemctl enable nginx
-
-
-**Disable a Service**
-
-Prevents a service from starting at boot.
-
-sudo systemctl disable <service-name>
-
-**Example**: sudo systemctl disable nginx
 
 
 
