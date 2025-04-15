@@ -1,6 +1,6 @@
  Snaatak
 
-# 🧾 **Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
+# 🧾**Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
 
 
 ## 📌 **1. Purpose**
