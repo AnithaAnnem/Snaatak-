@@ -1,16 +1,16 @@
-# Snaatak
+ Snaatak
 
-**Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
+# 🧾 **Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
 
 
-## **1. Purpose**
+## 📌 **1. Purpose**
 
 This SOP provides standardized procedures for managing services (start, stop, restart, enable, disable, check status) on Ubuntu OS.
 
 
 
 
-## **2. Prerequisites**
+## 🛠️ **2. Prerequisites**
 
 To ensure the successful management of the service on Ubuntu, the following prerequisites must be met:
 
@@ -33,7 +33,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-## **3. Definitions**
+## 📘 **3. Definitions**
 
 
 
@@ -47,13 +47,13 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-## **4. Service Management Commands with systemctl**
+## 🚦 **4. Service Management Commands with systemctl**
 
 
 
 
 
-- **Check Status of a Service**  
+- **🔍 Check Status of a Service**  
   - Displays whether the service is active (running) or inactive.  
   - **Command**:  
     ```bash
@@ -126,7 +126,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-## **5.Troubleshooting**
+## 🧯 **5.Troubleshooting**
 
 
 | Issue                | Solution                                                           |
