@@ -137,7 +137,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 | Changes not applied  | Use `systemctl daemon-reexec` or `systemctl daemon-reload`         |
 
 
-### 📧 Contact Information
+## 📧 Contact Information
 
 | Name       | Email Address                |
 |------------|------------------------------|
