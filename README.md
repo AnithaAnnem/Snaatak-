@@ -1,4 +1,4 @@
- Snaatak
+
 
 # 🧾**Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
 
