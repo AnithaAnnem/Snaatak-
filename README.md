@@ -7,7 +7,7 @@
 |-----------------|-------------|-----------|------------------|----------------|
 | Anitha   | 2025-04-17  | Version 1 |Anitha | 2025-04-17     |
 
-# ☕ Java Installation Guide 
+# ☕ Java Installation Guide
 
 
 
