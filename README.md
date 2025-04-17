@@ -26,7 +26,7 @@
 
 
 
-# Purpose of Java 🌍
+# Purpose of Java 
 
 Java is one of the most popular and versatile programming languages, widely used for building cross-platform applications. Below are some key areas where Java is essential:
 
@@ -61,7 +61,7 @@ The **JDK** is a set of tools that enables developers to create Java application
 
 ---
 
-# Prerequisites ⚙️
+# Prerequisites 
 
 Before installing Java, ensure that you have the following:
 
