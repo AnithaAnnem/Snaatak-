@@ -13,13 +13,14 @@
 
 ## 📖 Table of Contents
 
-1. [ Purpose](#-purpose)
-2. [ Prerequisites](#️-prerequisites)
+1. [📌 Purpose](#-purpose)
+2. [🛠️ Prerequisites](#️-prerequisites)
 3. [📘 Definitions](#-definitions)
-4. [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
+4. [🚦 Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
 5. [🧯 Troubleshooting](#-troubleshooting)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
+
 
 
 
@@ -33,14 +34,14 @@
 # 🧾**Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
 
 
-##   Purpose
+##  📌 Purpose
 
 This SOP provides standardized procedures for managing services (start, stop, restart, enable, disable, check status) on Ubuntu OS.
 
 
 
 
-##   Prerequisites
+##  🛠️ Prerequisites
 
 To ensure the successful management of the service on Ubuntu, the following prerequisites must be met:
 
@@ -77,7 +78,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-##   Service Management Commands with systemctl
+##  🚦 Service Management Commands with systemctl
 
 
 
