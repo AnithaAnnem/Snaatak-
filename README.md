@@ -1,10 +1,3 @@
-![image](https://github.com/user-attachments/assets/394cd790-db18-404a-93b7-7885f63b727d)
-
-## 📂 Document Info
-
-| Author          | Created On  | Version   | Last Updated By | Last Edited On |
-|-----------------|-------------|-----------|------------------|----------------|
-| Annem Anitha | 2025-04-16  | Version 1 |Annem Anitha | 2025-04-17     |
 
 
 ![image](https://github.com/user-attachments/assets/394cd790-db18-404a-93b7-7885f63b727d)
