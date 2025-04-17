@@ -10,25 +10,17 @@
 
 ## Table of Contents 📑
 
-1. [Introduction](#introduction)
-2. [Purpose of Java](#purpose-of-java)
-3. [Prerequisites](#prerequisites)
-4. [Checking Existing Java Installation](#checking-existing-java-installation)
-5. [Installing Java on Windows](#installing-java-on-windows)
-    - [Download JDK](#download-jdk)
-    - [Install JDK on Windows](#install-jdk-on-windows)
-    - [Set JAVA_HOME and PATH Environment Variables](#set-java_home-and-path-environment-variables)
-6. [Installing Java on macOS](#installing-java-on-macos)
-    - [Download JDK](#download-jdk-macos)
-    - [Install JDK on macOS](#install-jdk-on-macos)
-    - [Set JAVA_HOME and PATH Environment Variables](#set-java_home-and-path-environment-variables-macos)
-7. [Installing Java on Linux](#installing-java-on-linux)
-    - [Download JDK](#download-jdk-linux)
-    - [Install JDK on Linux](#install-jdk-on-linux)
-    - [Set JAVA_HOME and PATH Environment Variables](#set-java_home-and-path-environment-variables-linux)
-8. [Verify the Installation](#verify-the-installation)
-9. [Troubleshooting Java Installation Issues](#troubleshooting-java-installation-issues)
-10. [Conclusion](#conclusion)
+1. Purpose of Java 
+2. Key Uses of Java
+3. Java Development Kit (JDK)
+4. Prerequisites ⚙️
+5. Checking Existing Java Installation 🔍    
+6. Installing Java on Windows 🪟  
+7. Installing Java on macOS 🍎    
+8. Installing Java on Linux 🐧
+9. Troubleshooting Java Installation Issues ⚠️
+10. 📧 Contact Information
+11. References 📚
 
 
 
