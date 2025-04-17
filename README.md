@@ -11,13 +11,13 @@
 
 ## 📖 Table of Contents  
 
-1. [Purpose](#1-purpose)  
-2. [Prerequisites](#2-prerequisites)  
-3. [Definitions](#3-definitions)  
-4. [Service Management Commands with systemctl](#4-service-management-commands-with-systemctl)  
-5. [Troubleshooting](#5-troubleshooting)  
-6. [Contact Information](#6-contact-information)  
-7. [References](#7-references)
+1. [Purpose](#1--purpose)  
+2. [Prerequisites](#2--prerequisites)  
+3. [Definitions](#3--definitions)  
+4. [Service Management Commands with systemctl](#4--service-management-commands-with-systemctl)  
+5. [Troubleshooting](#5--troubleshooting)  
+6. [Contact Information](#6--contact-information)  
+7. [References](#7--references)
   
  
 
