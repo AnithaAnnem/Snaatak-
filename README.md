@@ -38,7 +38,7 @@
 
 Java is one of the most popular and versatile programming languages, widely used for building cross-platform applications. Below are some key areas where Java is essential:
 
-## Key Uses of Java
+# Key Uses of Java
 
 **Web Applications 🌐**
 
@@ -58,7 +58,7 @@ Java is used in embedded systems such as IoT devices, smart cards, and appliance
 
 ---
 
-## Java Development Kit (JDK)
+# Java Development Kit (JDK)
 
 The **JDK** is a set of tools that enables developers to create Java applications. It includes:
 
@@ -69,7 +69,7 @@ The **JDK** is a set of tools that enables developers to create Java application
 
 ---
 
-## Prerequisites ⚙️
+# Prerequisites ⚙️
 
 Before installing Java, ensure that you have the following:
 
@@ -80,7 +80,7 @@ Before installing Java, ensure that you have the following:
 | **Internet Connection**                      | An **internet connection** is required to download the JDK.    |
 
 
-## Checking Existing Java Installation 🔍
+# Checking Existing Java Installation 🔍
 
 **Windows:**
 
@@ -140,7 +140,7 @@ OpenJDK 64-Bit Server VM (build 11.0.10+9, mixed mode)
 ```
 
 
-## Installing Java on Windows 🪟
+# Installing Java on Windows 🪟
 
 ### 1. Download JDK 📥
 
@@ -175,7 +175,7 @@ OpenJDK 64-Bit Server VM (build 11.0.10+9, mixed mode)
   %JAVA_HOME%\bin
   ```
 
-## Installing Java on macOS 🍎
+# Installing Java on macOS 🍎
 
 ### 1. Download JDK 📥
 
@@ -231,7 +231,7 @@ Then run:
 source ~/.zshrc  # or ~/.bash_profile
 ```
 
-## Installing Java on Linux 🐧
+# Installing Java on Linux 🐧
 
 ### 1. Download JDK (Linux) 📥
 
@@ -291,7 +291,7 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
    source ~/.bashrc   # Or `source ~/.bash_profile` depending on your shell
    ```
 
-## Troubleshooting Java Installation Issues ⚠️
+# Troubleshooting Java Installation Issues ⚠️
 
 | **Issue** | **Possible Causes** | **Solutions** |
 |-----------|---------------------|--------------|
@@ -304,14 +304,14 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
 
 
 
-## 📧 Contact Information
+# 📧 Contact Information
 
 | Name       | Email Address                |
 |------------|------------------------------|
 | Anitha     |anitha.annem.snaatak@mygurukulam.co|
 
 
-## References 📚
+# References 📚
 
 | **Resource**                        | **Description**                                                                                     | **Link**                                                                                          |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
