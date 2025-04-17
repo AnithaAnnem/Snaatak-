@@ -11,15 +11,13 @@
 
 ## Table of Contents
 
-1. [Document Info](#document-info)  
-2. [Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl](#standard-operating-procedure-sop-managing-services-on-ubuntu-with-systemctl)  
-3. [Purpose](#purpose)  
-4. [Prerequisites](#prerequisites)  
-5. [Definitions](#definitions)  
-6. [Service Management Commands with systemctl](#service-management-commands-with-systemctl)  
-7. [Troubleshooting](#troubleshooting)  
-8. [Contact Information](#contact-information)  
-9. [References](#references)
+1. [Purpose](#purpose)  
+2. [Prerequisites](#prerequisites)  
+3. [Definitions](#definitions)  
+4. [Service Management Commands with systemctl](#service-management-commands-with-systemctl)  
+5. [Troubleshooting](#troubleshooting)  
+6. [Contact Information](#contact-information)  
+7. [References](#references)  
 
 
 
