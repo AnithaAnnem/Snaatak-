@@ -183,5 +183,3 @@ To ensure the successful management of the service on Ubuntu, the following prer
 |----------------------------------------------------------------------|--------------------------------------------------|
 | [https://www.linode.com/docs/guides/introduction-to-systemctl/](https://www.linode.com/docs/guides/introduction-to-systemctl/) | Introduction to systemctl and systemctl commands |
 
-
-
