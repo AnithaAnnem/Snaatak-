@@ -11,8 +11,6 @@
 # Table of Contents 📑
 
 1. [Purpose of Java](#purpose-of-java)
-
-
 2. [Key Uses of Java](#key-uses-of-java)
 3. [Java Development Kit (JDK)](#java-development-kit-jdk)
 4. [Prerequisites](#prerequisites)
