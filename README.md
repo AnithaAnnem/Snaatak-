@@ -14,14 +14,14 @@
 
 2. [Key Uses of Java](#key-uses-of-java)
 3. [Java Development Kit (JDK)](#java-development-kit-jdk)
-4. [Prerequisites ⚙️](#prerequisites-)
-5. [Checking Existing Java Installation 🔍](#checking-existing-java-installation-)
-6. [Installing Java on Windows 🪟](#installing-java-on-windows-)
-7. [Installing Java on macOS 🍎](#installing-java-on-macos-)
-8. [Installing Java on Linux 🐧](#installing-java-on-linux-)
-9. [Troubleshooting Java Installation Issues ⚠️](#troubleshooting-java-installation-issues-)
-10. [📧 Contact Information](#contact-information)
-11. [References 📚](#references-)
+4. [Prerequisites ](#prerequisites-)
+5. [Checking Existing Java Installation ](#checking-existing-java-installation-)
+6. [Installing Java on Windows ](#installing-java-on-windows-)
+7. [Installing Java on macOS ](#installing-java-on-macos-)
+8. [Installing Java on Linux ](#installing-java-on-linux-)
+9. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
+10. [ Contact Information](#contact-information)
+11. [References ](#references-)
 
 
 
