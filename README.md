@@ -11,7 +11,7 @@
 
 ## 📖 Table of Contents  
 
-1. [ Purpose](#1--purpose)
+1. [Purpose](#-purpose) 
 2. [ Prerequisites](#--prerequisites)
 3. [ Definitions](#--definitions)
 4. [ Service Management Commands with systemctl](#--service-management-commands-with-systemctl)
