@@ -1,4 +1,30 @@
 
+ ![image](https://github.com/user-attachments/assets/f8d1e015-f9cb-4c1e-933e-22e6262b0c69)
+
+
+
+## 📂 Document Info
+
+| Author          | Created On  | Version   | Last Updated By | Last Edited On |
+|-----------------|-------------|-----------|------------------|----------------|
+| Annem Anithaa  | 2025-04-14  | Version 1 |Annem Anitha  | 2025-04-16     |
+
+## Table of Contents
+
+1. [Document Info](#document-info)  
+2. [Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl](#standard-operating-procedure-sop-managing-services-on-ubuntu-with-systemctl)  
+3. [Purpose](#purpose)  
+4. [Prerequisites](#prerequisites)  
+5. [Definitions](#definitions)  
+6. [Service Management Commands with systemctl](#service-management-commands-with-systemctl)  
+7. [Troubleshooting](#troubleshooting)  
+8. [Contact Information](#contact-information)  
+9. [References](#references)
+
+
+
+
+
 
 # 🧾**Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
 
@@ -141,9 +167,16 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 | Name       | Email Address                |
 |------------|------------------------------|
-| Anitha     |anithaannem852@gmail.com      |
+| Anitha     |anitha.annem.snaatak@mygurukulam.co|
 
 
+
+
+## 📚 References
+
+| Link                                                                 | Title / Description                             |
+|----------------------------------------------------------------------|--------------------------------------------------|
+| [https://www.linode.com/docs/guides/introduction-to-systemctl/](https://www.linode.com/docs/guides/introduction-to-systemctl/) | Introduction to systemctl and systemctl commands |
 
 
 
