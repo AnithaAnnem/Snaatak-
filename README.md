@@ -2,11 +2,12 @@
  ![image](https://github.com/user-attachments/assets/f8d1e015-f9cb-4c1e-933e-22e6262b0c69)
 
 
+
 ## 📂 Document Info
 
 | Author          | Created On  | Version   | Last Updated By | Last Edited On |
 |-----------------|-------------|-----------|------------------|----------------|
-| Annem Anithaa  | 2025-04-14  | Version 1 | Annem Anitha  | 2025-04-16     |
+| Annem Anithaa  | 2025-04-14  | Version 1 |Annem Anitha  | 2025-04-16     |
 
 ## 📖 Table of Contents  
 
@@ -18,13 +19,27 @@
 6. [📧 Contact Information](#contact-information)
 7. [📚 References](#references)
 
-# 🧾 **Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
 
-## 📌 Purpose {#purpose}
+
+  
+ 
+
+
+
+# 🧾**Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
+
+
+## 📌  Purpose
+
 This SOP provides standardized procedures for managing services (start, stop, restart, enable, disable, check status) on Ubuntu OS.
 
-## 🛠️ Prerequisites {#prerequisites}
+
+
+
+## 🛠️  Prerequisites
+
 To ensure the successful management of the service on Ubuntu, the following prerequisites must be met:
+
 
 | Requirement       | Description                                                      |
 |------------------|------------------------------------------------------------------|
@@ -34,14 +49,35 @@ To ensure the successful management of the service on Ubuntu, the following prer
 | Installed Services| The service (e.g., nginx, mysql) should be installed beforehand  |
 | Terminal Access   | Access via SSH or local terminal                                 |
 
-## 📘 Definitions {#definitions}
+
+
+
+
+
+
+
+
+
+
+## 📘 Definitions
+
+
 
 | Term     | Description                                           |
 |----------|-------------------------------------------------------|
 | systemd  | The system and service manager used in Ubuntu         |
 | Service  | A background process (e.g., Apache, MySQL)            |
 
-## 🚦 Service Management Commands with systemctl {#service-management-commands-with-systemctl}
+
+
+
+
+
+## 🚦  Service Management Commands with systemctl
+
+
+
+
 
 - **🔍 Check Status of a Service**  
   - Displays whether the service is active (running) or inactive.  
@@ -109,7 +145,15 @@ To ensure the successful management of the service on Ubuntu, the following prer
     sudo systemctl disable nginx
     ```
 
-## 🧯 Troubleshooting {#troubleshooting}
+
+
+
+
+
+
+
+## 🧯 Troubleshooting
+
 
 | Issue                | Solution                                                           |
 |----------------------|--------------------------------------------------------------------|
@@ -118,14 +162,21 @@ To ensure the successful management of the service on Ubuntu, the following prer
 | Service not found    | Confirm the service is installed (`systemctl list-unit-files`)     |
 | Changes not applied  | Use `systemctl daemon-reexec` or `systemctl daemon-reload`         |
 
-## 📧 Contact Information {#contact-information}
+
+## 📧 Contact Information
 
 | Name       | Email Address                |
 |------------|------------------------------|
-| Anitha     | anitha.annem.snaatak@mygurukulam.co |
+| Anitha     |anitha.annem.snaatak@mygurukulam.co|
 
-## 📚 References {#references}
+
+
+
+## 📚 References
 
 | Link                                                                 | Title / Description                             |
 |----------------------------------------------------------------------|--------------------------------------------------|
 | [https://www.linode.com/docs/guides/introduction-to-systemctl/](https://www.linode.com/docs/guides/introduction-to-systemctl/) | Introduction to systemctl and systemctl commands |
+
+
+
