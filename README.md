@@ -13,10 +13,10 @@
 
 ## 📖 Table of Contents
 
-1. [📌 Purpose](#-purpose)
-2. [🛠️ Prerequisites](#️-prerequisites)
+1. [ Purpose](#-purpose)
+2. [ Prerequisites](#️-prerequisites)
 3. [📘 Definitions](#-definitions)
-4. [🚦 Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
+4. [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
 5. [🧯 Troubleshooting](#-troubleshooting)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
