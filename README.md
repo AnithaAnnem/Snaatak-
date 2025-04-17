@@ -40,16 +40,20 @@ Java is one of the most popular and versatile programming languages, widely used
 
 ## Key Uses of Java
 
-### Web Applications 🌐
+**Web Applications 🌐**
+
 Java powers many server-side applications, including websites and web services. The Spring Framework is one of the most popular Java-based frameworks for web development.
 
-### Mobile Applications 📱
+ **Mobile Applications 📱**
+
 Java is the primary language for developing Android applications, making it essential for mobile app development.
 
-### Desktop Applications 🖥️
+**Desktop Applications 🖥️**
+
 With JavaFX and Swing, Java allows developers to create powerful desktop applications with rich user interfaces.
 
-### Embedded Systems 🏠
+**Embedded Systems 🏠**
+
 Java is used in embedded systems such as IoT devices, smart cards, and appliances, thanks to its portability and scalability.
 
 ---
