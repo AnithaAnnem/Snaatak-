@@ -12,7 +12,7 @@
 
 1. [Purpose of Java](#purpose-of-java)
 2. [Key Uses of Java](#key-uses-of-java)
-3. [Java Development Kit (JDK)](#java-development-kit-jdk)
+3. [Java Development Kit (JDK)](#java-development-kit-jdk) 
 4. [Prerequisites](#prerequisites)
 5. [Checking Existing Java Installation ](#checking-existing-java-installation-)
 6. [Installing Java on Windows ](#installing-java-on-windows-)
