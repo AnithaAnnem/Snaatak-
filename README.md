@@ -313,26 +313,12 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
 
 ## References 📚
 
-1. **Oracle JDK Download Page**  
-   Visit the official [Oracle JDK Download](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) page to download the latest version of the Java Development Kit (JDK).
+| **Resource**                        | **Description**                                                                                     | **Link**                                                                                          |
+|-------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **Oracle JDK Download Page**        | Download the latest version of the Java Development Kit (JDK).                                       | [Oracle JDK Download](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)       |
+| **Official Java Documentation**     | Access the official Java documentation for in-depth details about Java API and usage.              | [Oracle Java Documentation](https://docs.oracle.com/en/java/)                                      |
+| **OpenJDK**                         | Open-source implementation of the Java Platform, Standard Edition.                                  | [OpenJDK official website](https://openjdk.java.net/)                                             |
 
-2. **Official Java Documentation**  
-   Java's official documentation can be found at the [Oracle Java Documentation](https://docs.oracle.com/en/java/).
-
-3. **OpenJDK**  
-   OpenJDK is an open-source implementation of the Java Platform, Standard Edition. You can learn more and download it from the [OpenJDK official website](https://openjdk.java.net/).
-
-4. **Oracle Java Tutorials**  
-   Oracle provides tutorials and resources to help you get started with Java programming: [Java Tutorials](https://docs.oracle.com/javase/tutorial/).
-
-5. **Java Version History**  
-   A detailed history of Java versions can be found on [Wikipedia: History of Java](https://en.wikipedia.org/wiki/History_of_Java).
-
-6. **Stack Overflow**  
-   For troubleshooting common issues, you can check out solutions posted by other Java developers on [Stack Overflow](https://stackoverflow.com/questions/tagged/java).
-
-7. **Java Community**  
-   Join the [Java community](https://community.oracle.com/tech/developers/categories/java) for discussions, support, and updates.
 
 
 
