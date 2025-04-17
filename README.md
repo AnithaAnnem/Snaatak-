@@ -9,15 +9,16 @@
 |-----------------|-------------|-----------|------------------|----------------|
 | Annem Anithaa  | 2025-04-14  | Version 1 |Annem Anitha  | 2025-04-16     |
 
-## Table of Contents
+## 📖 Table of Contents  
 
-1. [Purpose](#purpose)  
-2. [Prerequisites](#prerequisites)  
-3. [Definitions](#definitions)  
-4. [Service Management Commands with systemctl](#service-management-commands-with-systemctl)  
-5. [Troubleshooting](#troubleshooting)  
-6. [Contact Information](#contact-information)  
-7. [References](#references)  
+1. [Purpose](#1-purpose)  
+2. [Prerequisites](#2-prerequisites)  
+3. [Definitions](#3-definitions)  
+4. [Service Management Commands with systemctl](#4-service-management-commands-with-systemctl)  
+5. [Troubleshooting](#5-troubleshooting)  
+6. [Contact Information](#6-contact-information)  
+7. [References](#7-references)
+  
  
 
 
