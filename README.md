@@ -10,21 +10,16 @@
 | Annem Anithaa  | 2025-04-14  | Version 1 |Annem Anitha  | 2025-04-18     |
 
 
+
 ## 📖 Table of Contents
 
-1. [Purpose 🌍](#purpose-🌍)
-2. [Prerequisites ⚙️](#prerequisites-️)
-3. [Definitions 📘](#definitions-📘)
-4. [Installing Java](#installing-java)
-   - [On Windows 🪟](#installing-java-on-windows-)
-   - [On macOS 🍎](#installing-java-on-macos-)
-   - [On Linux 🐧](#installing-java-on-linux-)
-5. [Set JAVA_HOME and PATH](#set-java_home-and-path)
-6. [Check Java Version 🔍](#check-java-version-)
-7. [Troubleshooting ⚠️](#troubleshooting-java-installation-issues-️)
-8. [Contact Information 📬](#contact-information-📬)
-9. [References 📚](#references-📚)
-
+1. [📌 Purpose](#-purpose)
+2. [🛠️ Prerequisites](#️-prerequisites)
+3. [📘 Definitions](#-definitions)
+4. [🚦 Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
+5. [🧯 Troubleshooting](#-troubleshooting)
+6. [📧 Contact Information](#-contact-information)
+7. [📚 References](#-references)
 
 
 
