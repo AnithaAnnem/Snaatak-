@@ -8,19 +8,19 @@
 | Anitha   | 2025-04-17  | Version 1 |Anitha | 2025-04-18     |
 
 
-## Table of Contents 📑
+# Table of Contents 📑
 
-1. Purpose of Java 
-2. Key Uses of Java
-3. Java Development Kit (JDK)
-4. Prerequisites ⚙️
-5. Checking Existing Java Installation 🔍    
-6. Installing Java on Windows 🪟  
-7. Installing Java on macOS 🍎    
-8. Installing Java on Linux 🐧
-9. Troubleshooting Java Installation Issues ⚠️
-10. 📧 Contact Information
-11. References 📚
+1. [Purpose of Java](#purpose-of-java)
+2. [Key Uses of Java](#key-uses-of-java)
+3. [Java Development Kit (JDK)](#java-development-kit-jdk)
+4. [Prerequisites ⚙️](#prerequisites-)
+5. [Checking Existing Java Installation 🔍](#checking-existing-java-installation-)
+6. [Installing Java on Windows 🪟](#installing-java-on-windows-)
+7. [Installing Java on macOS 🍎](#installing-java-on-macos-)
+8. [Installing Java on Linux 🐧](#installing-java-on-linux-)
+9. [Troubleshooting Java Installation Issues ⚠️](#troubleshooting-java-installation-issues-)
+10. [📧 Contact Information](#contact-information)
+11. [References 📚](#references-)
 
 
 
