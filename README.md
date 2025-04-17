@@ -4,21 +4,20 @@
 
 | Author          | Created On  | Version   | Last Updated By | Last Edited On |
 |-----------------|-------------|-----------|------------------|----------------|
-| Annem Anitha | 2025-04-16  | Version 1 |Annem Anitha | 2025-04-16     |
+| Annem Anitha | 2025-04-16  | Version 1 |Annem Anitha | 2025-04-17     |
 
 
-## 📖 Table of Contents
+## 📖 Table of Contents  
+1. [🎯 Purpose](#1--purpose)  
+2. [📦 What is a Virtual Environment?](#2--what-is-a-virtual-environment)  
+3. [✅ Why Use a Virtual Environment?](#3--why-use-a-virtual-environment)  
+4. [⚙️ Prerequisites](#4--prerequisites-with-system-requirements)  
+5. [🧪 Setting Up a Virtual Environment](#5--setting-up-a-virtual-environment)  
+6. [📦 Managing Dependencies](#6--managing-dependencies)  
+7. [🧭 Best Practices](#7--best-practices)  
+8. [❗ Common Issues & Troubleshooting](#8-common-issues--troubleshooting)  
+9. [📚 References](#9--references)  
 
-
-1. **Purpose**
-2. **What is a Virtual Environment?**
-3. **Why Use a Virtual Environment**
-4. **Prerequisites**
-5. **Setting Up a Virtual Environment**
-6. **Managing Dependencies**
-7. **Best Practices**
-8. **Common Issues & Troubleshooting**
-9. **References**
 
 
 
@@ -71,6 +70,7 @@ Before setting up a Python virtual environment, make sure your system meets the 
 | **Text Editor or IDE** *(Optional)* | VS Code, PyCharm, Sublime, etc. | 🔹 [VS Code](https://code.visualstudio.com/) <br> 🔹 [PyCharm](https://www.jetbrains.com/pycharm/)                                                                   |
 
   ## 📜 Summary of Installation Commands
+
     here are the key installation/check commands:
 
   **Check if Python is Installed**
@@ -87,9 +87,11 @@ Before setting up a Python virtual environment, make sure your system meets the 
    If you get a "command not found" error, Python is likely not installed.
   
    **📦 Install pip (if missing)**
+
     ```bash
     python -m ensurepip --upgrade
     ```
+
    **Example Output:**
    ```bash
    Looking in links: ...
@@ -269,7 +271,6 @@ Don’t forget to deactivate the current environment before activating another.
 
 
   
-
 
 
 
