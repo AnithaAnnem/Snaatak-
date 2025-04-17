@@ -7,16 +7,17 @@
 | Annem Anitha | 2025-04-16  | Version 1 |Annem Anitha | 2025-04-17     |
 
 
-## 📖 Table of Contents  
-1. [🎯 Purpose](#1--purpose)  
-2. [📦 What is a Virtual Environment?](#2--what-is-a-virtual-environment)  
-3. [✅ Why Use a Virtual Environment?](#3--why-use-a-virtual-environment)  
-4. [⚙️ Prerequisites](#4--prerequisites-with-system-requirements)  
-5. [🧪 Setting Up a Virtual Environment](#5--setting-up-a-virtual-environment)  
-6. [📦 Managing Dependencies](#6--managing-dependencies)  
-7. [🧭 Best Practices](#7--best-practices)  
-8. [❗ Common Issues & Troubleshooting](#8-common-issues--troubleshooting)  
-9. [📚 References](#9--references)  
+## Table of Contents  
+1. [Purpose](#1-purpose)  
+2. [What is a Virtual Environment](#2-what-is-a-virtual-environment)  
+3. [Why Use a Virtual Environment](#3-why-use-a-virtual-environment)  
+4. [Prerequisites](#4-prerequisites-with-system-requirements)  
+5. [Setting Up a Virtual Environment](#5-setting-up-a-virtual-environment)  
+6. [Managing Dependencies](#6-managing-dependencies)  
+7. [Best Practices](#7-best-practices)  
+8. [Common Issues & Troubleshooting](#8-common-issues--troubleshooting)  
+9. [References](#9-references)  
+ 
 
 
 
