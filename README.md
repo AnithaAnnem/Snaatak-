@@ -296,7 +296,7 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
 
 
 
-# 📧 Contact Information
+#  Contact Information # 📧
 
 | Name       | Email Address                |
 |------------|------------------------------|
