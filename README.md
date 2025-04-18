@@ -16,21 +16,21 @@
 
 ## 📚 Table of Contents
 
-1. [What is React?](#1--what-is-react)
-2. [Purpose of React](#2--purpose-of-react)
-3. [Why Use React?](#3--why-use-react)
-4. [Prerequisites](#4--prerequisites)
-5. [Key Features of React](#5--key-features-of-react)
+1. [What is React?](#-what-is-react)
+2. [Purpose of React](#-purpose-of-react)
+3. [Why Use React?](#-why-use-react)
+4. [Prerequisites](#-prerequisites)
+5. [Key Features of React](#-key-features-of-react)
    - [JSX (JavaScript XML)](#51-jsx-javascript-xml)
    - [Component-Based Architecture](#52-component-based-architecture)
    - [Virtual DOM](#53-virtual-dom)
    - [One-Way Data Binding](#54-one-way-data-binding)
    - [State Management](#55-state-management)
    - [React Hooks](#56-react-hooks)
-   - [React Router](#57-react-router)
-6. [Troubleshooting](#6--troubleshooting)
-7. [References](#7--references)
-8. [Learning Resources](#8--learning-resources)
+   - [React Router in React Application](#57-react-router-in-react-application)
+6. [Learning Resources](#-learning-resources)
+7. [Contact Information](#-contact-information)
+8. [References](#-references)
 
 
 ## 🧠 What is React?
