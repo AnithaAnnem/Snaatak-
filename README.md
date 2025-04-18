@@ -12,8 +12,6 @@
 # 🚀 Migrate: Introduction Documentation
 
 
----
-
 ## Table of Contents
 
 - [What is Migration?](#what-is-migration)
@@ -22,8 +20,8 @@
 - [Types of Migration](#types-of-migration)
 - [Purpose of Migration](#purpose-of-migration)
 - [Prerequisites for Migration](#prerequisites-for-migration)
+- [Contact Information](#contact-information)
 
----
 
 ## 🔄 What is Migration?
 
