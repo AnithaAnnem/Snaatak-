@@ -21,7 +21,7 @@ Welcome to the Migration Introduction Documentation! This guide helps you unders
 - [🌍 Why Migrate?](#-why-migrate)
 - [🎯 Purpose of Migration](#-purpose-of-migration)
 - [🧰 Prerequisites for Migration](#-prerequisites-for-migration)
-- [🛠️ Key Features of Migration Tools](#key-features-of-migration-tools)
+- [Key Features of Migration Tools](#key-features-of-migration-tools)
 - [⚙️ Types of Migration](#️-types-of-migration)
 
 ---
@@ -81,7 +81,7 @@ Preparation is key to a smooth migration.
 
 ---
 
-## 🛠️ Key Features of Migration Tools
+##  Key Features of Migration Tools
 
 
 Modern migration tools simplify the process and help avoid disruptions. Key features include:
