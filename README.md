@@ -21,7 +21,7 @@ Welcome to the Migration Introduction Documentation! This guide helps you unders
 - [🌍 Why Migrate?](#-why-migrate)
 - [🎯 Purpose of Migration](#-purpose-of-migration)
 - [🧰 Prerequisites for Migration](#-prerequisites-for-migration)
-- [Key Features of Migration Tools](#key-features-of-migration-tools)
+- [🛠️ Key Features of Migration Tools](#key-features-of-migration-tools)
 - [⚙️ Types of Migration](#️-types-of-migration)
 
 ---
