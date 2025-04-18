@@ -26,7 +26,7 @@
 
 
 
-✅ **What is an Ansible Playbook?**  
+# **What is an Ansible Playbook?**  
 
 An Ansible Playbook is a YAML file that defines a set of automation tasks to be run on remote systems. It tells Ansible what to do, where to do it, and how.
 
@@ -42,11 +42,11 @@ An Ansible Playbook is a YAML file that defines a set of automation tasks to be 
         dest: "/var/www/app"
  ```
 
-🔄 **What is a CD (Continuous Deployment) Workflow?**  
+# **What is a CD (Continuous Deployment) Workflow?**  
 
 Continuous Deployment (CD) is the process of automatically deploying every change that passes tests and builds into production. No human intervention is required after the CI (Continuous Integration) process.
 
-🔧 **CD Workflow Using Ansible Playbook – Step-by-Step**  
+#  **CD Workflow Using Ansible Playbook – Step-by-Step**  
 
 Here’s how you can implement a CD pipeline using Ansible:
 
