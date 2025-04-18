@@ -13,9 +13,9 @@
 
 
 ## 📑 Table of Contents
-- [✅ What is an Ansible Playbook?](#what-is-an-ansible-playbook)
-- [🔄 What is a CD (Continuous Deployment) Workflow?](#what-is-a-cd-continuous-deployment-workflow)
-- [🔧 CD Workflow Using Ansible Playbook – Step-by-Step](#cd-workflow-using-ansible-playbook--step-by-step)
+- [What is an Ansible Playbook?](#what-is-an-ansible-playbook)
+- [What is a CD (Continuous Deployment) Workflow?](#what-is-a-cd-continuous-deployment-workflow)
+- [CD Workflow Using Ansible Playbook – Step-by-Step](#cd-workflow-using-ansible-playbook--step-by-step)
   - [📂 Code Checkout and Branching](#code-checkout-and-branching)
   - [📦 Build and Package the Application](#build-and-package-the-application)
   - [🚚 Deploying the Application to Staging](#deploying-the-application-to-staging)
