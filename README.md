@@ -21,8 +21,8 @@
   - [🚚 Deploying the Application to Staging](#deploying-the-application-to-staging)
   - [🧪 Testing the Staging Environment](#testing-the-staging-environment)
   - [✅ Approval and Production Deployment](#approval-and-production-deployment)
-- [📧 Contact Information](#contact-information)
-- [📚 References](#references)
+- [📧 Contact Information](#-contact-information)
+- [📚 References](#-references)
 
 
 
