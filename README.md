@@ -3,9 +3,11 @@
 ![image](https://github.com/user-attachments/assets/57b80e28-7839-41e6-a2b7-a946fc02966c)
 
 
-| Author          | Created On  | Version   | Last Updated By | Last Edited On |
-|-----------------|-------------|-----------|------------------|----------------|
-| Anitha   | 2025-04-17  | Version 1 |Anitha | 2025-04-18    |
+## 📂 Document Info
+
+| Author   | Created on | Version  | Last Edited On | Internal-Reviewer | L0-Reviewer  | L1-Reviewer | L2-Reviewer  | 
+|----------|------------|----------|----------------|-------------------|--------------|-------------|--------------|
+| Anitha  | 16-04-25   | version 1| 18-04-25       | priyanshu     | Khushi| mukul joshi | Piyush upadyay |
 
 
 # Table of Contents 📑
@@ -15,12 +17,11 @@
 3. [Java Development Kit (JDK)](#java-development-kit-jdk) 
 4. [Prerequisites](#prerequisites)
 5. [Checking Existing Java Installation ](#checking-existing-java-installation-)
-6. [Installing Java on Windows ](#installing-java-on-windows-)
-7. [Installing Java on macOS ](#installing-java-on-macos-)
-8. [Installing Java on Linux ](#installing-java-on-linux-)
-9. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
-10. [Contact Information](#contact-information)
-11. [References ](#references-)
+6. [Installing Java on macOS ](#installing-java-on-macos-)
+7. [Installing Java on Linux ](#installing-java-on-linux-)
+8. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
+9. [Contact Information](#contact-information)
+10. [References ](#references-)
 
 
 
@@ -50,16 +51,8 @@ Java is used in embedded systems such as IoT devices, smart cards, and appliance
 
 ---
 
-# Java Development Kit (JDK)
 
-The **JDK** is a set of tools that enables developers to create Java applications. It includes:
 
-- **JRE (Java Runtime Environment):** For running Java programs.
-- **Java Compiler (javac):** Compiles Java source code into bytecode.
-- **JVM (Java Virtual Machine):** Executes Java bytecode on different platforms, providing cross-platform compatibility.
-- **Development Tools:** Includes utilities like `javadoc` for documentation and `jdb` for debugging.
-
----
 
 # Prerequisites 
 
@@ -72,156 +65,76 @@ Before installing Java, ensure that you have the following:
 | **Internet Connection**                      | An **internet connection** is required to download the JDK.    |
 
 
-# Checking Existing Java Installation 🔍
-
-**Windows:**
-
-1. Press Win + R, type cmd, and press Enter to open Command Prompt.
-
-2. Type:
-
-```bash
-java -version
-```
-
-**Output:**
-
-```bash
-openjdk version "11.0.10" 2021-01-19
-OpenJDK Runtime Environment (build 11.0.10+9)
-OpenJDK 64-Bit Server VM (build 11.0.10+9, mixed mode)
-
-```
-
-**macOS:**
-
-1. Open Terminal.
-
-2. Type:
-
-```bash
-java -version
-```
-
-**Output:**
-
-```bash
-openjdk version "11.0.10" 2021-01-19
-OpenJDK Runtime Environment (build 11.0.10+9)
-OpenJDK 64-Bit Server VM (build 11.0.10+9, mixed mode)
-
-```
-
-**Linux:**
-
-1. Open Terminal.
-
-2. Type:
-
-```bash
-java -version
-```
-
-**Output:**
-
-```bash
-openjdk version "11.0.10" 2021-01-19
-OpenJDK Runtime Environment (build 11.0.10+9)
-OpenJDK 64-Bit Server VM (build 11.0.10+9, mixed mode)
-
-```
 
 
-# Installing Java on Windows 🪟
 
-### 1. Download JDK 📥
 
-- Visit the official Oracle JDK download page: [Oracle JDK Download](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-- Select **Windows** as your operating system.
-- Download the JDK installer (e.g., `jdk-11.x.x_windows-x64_bin.exe`).
 
-### 2. Install JDK on Windows 🔧
 
-- Once the `.exe` file is downloaded, run it to start the installation process.
-- Follow the installation wizard:
-  - Choose the installation directory (the default path is usually fine, like `C:\Program Files\Java`).
-- After the installation is complete, click **Close**.
 
-### 3. Set JAVA_HOME and PATH Environment Variables 🛠️
-
-#### A. Set `JAVA_HOME` Variable
-
-- Open the **Start Menu** and search for **Environment Variables**.
-- Select **Edit the system environment variables**.
-- In the **System Properties** window, click the **Environment Variables** button.
-- Under **System Variables**, click **New**:
-  - **Variable Name:** `JAVA_HOME`
-  - **Variable Value:** The path to your JDK installation (e.g., `C:\Program Files\Java\jdk-11.x.x`)
-
-#### B. Update the `PATH` Variable
-
-- In the **System Variables** section, scroll down and find the `Path` variable, then click **Edit**.
-- In the **Edit Environment Variables** window, click **New** and add:
-
-  ```bash
-  %JAVA_HOME%\bin
-  ```
 
 # Installing Java on macOS 🍎
 
-### 1. Download JDK 📥
+ ### 1. Check if Java is Already Installed
 
-- Go to the official [Oracle JDK download page](https://www.oracle.com/java/technologies/javase-jdk-downloads.html).
-- Select **macOS** and download the appropriate `.dmg` installer:
-  - `jdk-17_macos-x64_bin.dmg` for **Intel-based Macs**
-  - `jdk-17_macos-aarch64_bin.dmg` for **Apple Silicon (M1/M2)**
+Before proceeding with the installation of Java, it's a good idea to first check if it's already installed on your system.
 
-### 2. Install the JDK 🔧
+1. Open the **Terminal** application. You can find it under **Applications > Utilities**, or simply search for it using **Spotlight**.
+2. In the Terminal window, type the following command and press **Enter**:
 
-- Open the downloaded `.dmg` file.
-- Double-click the `.pkg` installer inside.
-- Follow the steps in the installation wizard.
-- Once the installation is complete, the JDK will typically be installed in:
+    ```bash
+    java -version
+    ```
 
-  ```swift
-  /Library/Java/JavaVirtualMachines/
-  ```
+3. If Java is installed, you'll see output displaying the installed version of Java. For example, you might see something like this:
 
-### 3. Set `JAVA_HOME` and Update `PATH` 🛠️
+    ```bash
+    java version "1.8.0_261"
+    Java(TM) SE Runtime Environment (build 1.8.0_261-b12)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.261-b12, mixed mode)
+    ```
 
-Open your Terminal and follow these steps:
+    If Java is not installed, you will receive a message indicating that the command is not recognized or that Java is not found on your system.
 
-#### A. Find the installed JDK path
+### 2. Install Java (JDK)
 
-Run the following command to get the installed JDK path:
+## Option 1. Install Java Using Homebrew (Recommended)
 
-```bash
-/usr/libexec/java_home
-```
-
-That command will output the path to the JDK, like:
+If you don't have Homebrew installed, you can install it by running the following command in Terminal:
 
 ```bash
-/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 ```
 
-#### B. Set `JAVA_HOME` and update your `PATH`
+This installs Homebrew, a package manager that makes it easier to install software like Java.
 
-Add the following lines to your shell profile file:
-
-- For **zsh** (default in macOS Catalina and later): `~/.zshrc`
-- For **bash**: `~/.bash_profile`
+## 2. Once Homebrew is installed, run the following command to install Java:
 
 ```bash
-export JAVA_HOME=$(/usr/libexec/java_home)
-export PATH=$JAVA_HOME/bin:$PATH
+brew install openjdk@17
 ```
 
-Then run:
+## 3. After installation is complete, you need to configure Java in your shell profile. Add the following lines to your `~/.zshrc` (or `~/.bash_profile` if you're using Bash) to set the Java environment variables:
 
 ```bash
-source ~/.zshrc  # or ~/.bash_profile
+export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 ```
+
+## 4.Apply the changes by running the following command:
+
+```bash
+source ~/.zshrc
+```
+
+
+
+
+
+
+
+
 
 # Installing Java on Linux 🐧
 
@@ -310,9 +223,6 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
 | **Oracle JDK Download Page**        | Download the latest version of the Java Development Kit (JDK).                                       | [Oracle JDK Download](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)       |
 | **Official Java Documentation**     | Access the official Java documentation for in-depth details about Java API and usage.              | [Oracle Java Documentation](https://docs.oracle.com/en/java/)                                      |
 | **OpenJDK**                         | Open-source implementation of the Java Platform, Standard Edition.                                  | [OpenJDK official website](https://openjdk.java.net/)                                             |
-
-
-
 
 
 
