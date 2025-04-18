@@ -1,185 +1,171 @@
 
- ![image](https://github.com/user-attachments/assets/f8d1e015-f9cb-4c1e-933e-22e6262b0c69)
 
-
+![image](https://github.com/user-attachments/assets/73592ff1-ac7d-4181-ab9c-69b65b39ed33)
 
 ## 📂 Document Info
 
-| Author          | Created On  | Version   | Last Updated By | Last Edited On |
-|-----------------|-------------|-----------|------------------|----------------|
-| Annem Anithaa  | 2025-04-14  | Version 1 |Annem Anitha  | 2025-04-18     |
+| Author   | Created on | Version  | Last Edited On | Internal-Reviewer | L0-Reviewer  | L1-Reviewer | L2-Reviewer  | 
+|----------|------------|----------|----------------|-------------------|--------------|-------------|--------------|
+| Anitha  | 18-04-25   | version 1| 19-04-25       | priyanshu     | Khushi| mukul joshi | Piyush upadyay |
 
 
-
-## 📖 Table of Contents
-
-1. [📌 Purpose](#-purpose)
-2. [🛠️ Prerequisites](#️-prerequisites)
-3. [📘 Definitions](#-definitions)
-4. [🚦 Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
-5. [🧯 Troubleshooting](#-troubleshooting)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
+## Continuous Deployment (CD) Workflow with Ansible Playbook 🚀
 
 
+✅ **What is an Ansible Playbook?**  
+
+An Ansible Playbook is a YAML file that defines a set of automation tasks to be run on remote systems. It tells Ansible what to do, where to do it, and how.
+
+**Example:**
+
+```yaml
+- name: Deploy my app
+  hosts: webservers
+  tasks:
+    - name: Pull latest code
+      git:
+        repo: "https://github.com/example/app.git"
+        dest: "/var/www/app"
+ ```
+
+🔄 **What is a CD (Continuous Deployment) Workflow?**  
+
+Continuous Deployment (CD) is the process of automatically deploying every change that passes tests and builds into production. No human intervention is required after the CI (Continuous Integration) process.
+
+🔧 **CD Workflow Using Ansible Playbook – Step-by-Step**  
+
+Here’s how you can implement a CD pipeline using Ansible:
 
 
+Git Push ➡️ CI/CD Tool ➡️ Ansible Playbook ➡️  
+[Pull Code ➡️ Install ➡️ Build ➡️ Configure ➡️ Restart ➡️ Verify]
 
 
+##  Code Checkout and Branching
+
+In this first stage, the goal is to get the latest version of the code from a repository (e.g., GitHub, GitLab) and place it in the correct environment.
+
+### Tasks in this stage:
+- **Checkout the Latest Code**: This is where you pull the latest changes from the appropriate branch (e.g., main, develop, or a feature branch).
   
- 
+- **Branch Handling**: Depending on the CD pipeline and your branching strategy (e.g., Git Flow or Trunk-based development), you may need to select the correct branch to deploy. Often, the staging branch is merged first into the main branch for production deployment.
+
+### Example in Ansible:
+
+```yaml
+- name: Checkout the latest code from the repository
+  git:
+    repo: 'https://github.com/example/app.git'
+    dest: /var/www/app
+    version: "main"  # Checkout the 'main' branch (or staging if desired)
+ ```
+
+##  Build and Package the Application
+
+After checking out the latest code, the next step is to build or package the application. This could involve compiling code, building a frontend app, creating Docker images, or preparing deployment artifacts.
+
+### Tasks in this stage:
+- **Compile and Build**: If you're working with Java, Node.js, or another compiled language, you'll want to compile the source code.
+
+- **Package**: Some applications need to be packaged into a deployable artifact, like a .tar.gz file, .deb, .rpm, Docker image, or .zip archive.
+
+- **Install Dependencies**: This often includes installing libraries or tools the application needs to run (e.g., `npm install`, `pip install`, etc.).
+
+### Example in Ansible:
+
+```yaml
+- name: Install dependencies
+  shell: npm install
+  args:
+    chdir: /var/www/app
+
+- name: Build the application
+  shell: npm run build
+  args:
+    chdir: /var/www/app
+ ```
+
+##  Deploying the Application to Staging
+
+Once the code is built and packaged, the next step is to deploy the application to the staging environment. The staging environment mimics production, but it’s a safe place for testing without affecting actual users.
+
+### Tasks in this stage:
+- **Deploying Artifacts**: This could involve copying files, Docker images, or any other form of deployment.
+  
+- **Service Restart**: If needed, you may need to restart web servers, background workers, or other services that serve the application.
+
+### Example in Ansible:
+
+```yaml
+- name: Deploy the app to staging environment
+  copy:
+    src: /var/www/app/build/
+    dest: /var/www/staging_app/
+  notify:
+    - Restart web server
+
+- name: Restart staging web server
+  systemd:
+    name: nginx
+    state: restarted
+ ```
+
+Here, Ansible copies the built application to the staging server and then restarts the web server (nginx, apache, etc.) to pick up the new code.
 
 
+##  Testing the Staging Environment
 
-# 🧾**Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
+Once the application is deployed to the staging environment, you want to test it to ensure that everything is working as expected. This can be both automated tests (unit, integration) or manual tests.
 
+### Tasks in this stage:
+- **Automated Testing**: Running unit tests, integration tests, or end-to-end tests in staging.
 
-##  📌 Purpose
+- **Health Checks**: Ensuring that the application is up and running and accessible via the correct ports.
 
-This SOP provides standardized procedures for managing services (start, stop, restart, enable, disable, check status) on Ubuntu OS.
+- **Smoke Tests**: These are simple checks to confirm that the basic functionality of the app is working, like checking if the homepage loads.
 
+### Example in Ansible:
 
+```yaml
+- name: Check if staging app is running
+  uri:
+    url: "http://staging-app.local"
+    status_code: 200
+  register: result
 
+- name: Run smoke tests
+  shell: ./run_smoke_tests.sh
+  args:
+    chdir: /var/www/staging_app
+  when: result.status == 200
+ ```
 
-##  🛠️ Prerequisites
+##  Approval and Production Deployment
 
-To ensure the successful management of the service on Ubuntu, the following prerequisites must be met:
+Once the application passes all tests in the staging environment, the deployment can move to production. However, before deploying to production, there is often an approval step where a team member or the system itself approves the deployment.
 
+### Tasks in this stage:
+- **Approval Process**: A manual approval step (via a CI/CD tool interface or automatic based on conditions).
+  
+- **Production Deployment**: Deploy the application to the production servers after approval.
 
-| Requirement       | Description                                                      |
-|------------------|------------------------------------------------------------------|
-| Ubuntu Version    | Ubuntu 16.04 or later (Recommended: 20.04, 22.04, or newer)      |
-| systemd           | Must be installed (default from Ubuntu 15.04+)                   |
-| Sudo Privileges   | User must have sudo access to manage services                    |
-| Installed Services| The service (e.g., nginx, mysql) should be installed beforehand  |
-| Terminal Access   | Access via SSH or local terminal                                 |
+### Example in Ansible:
+If the approval is automatic, the playbook can trigger production deployment:
 
+```yaml
+- name: Deploy to production environment
+  copy:
+    src: /var/www/staging_app/
+    dest: /var/www/production_app/
 
-
-
-
-
-
-
-
-
-
-## 📘 Definitions
-
-
-
-| Term     | Description                                           |
-|----------|-------------------------------------------------------|
-| systemd  | The system and service manager used in Ubuntu         |
-| Service  | A background process (e.g., Apache, MySQL)            |
-
-
-
-
-
-
-##  🚦 Service Management Commands with systemctl
-
-
-
-
-
-- **🔍 Check Status of a Service**  
-  - Displays whether the service is active (running) or inactive.  
-  - **Command**:  
-    ```bash
-    systemctl status <service_name>
-    ```  
-  - **Example**:  
-    ```bash
-    systemctl status nginx
-    ```
-
-- **Start a Service**  
-  - Starts the service immediately.  
-  - **Command**:  
-    ```bash
-    sudo systemctl start <service-name>
-    ```  
-  - **Example**:  
-    ```bash
-    sudo systemctl start nginx
-    ```
-
-- **Stop a Service**  
-  - Stops the running service immediately.  
-  - **Command**:  
-    ```bash
-    sudo systemctl stop <service-name>
-    ```  
-  - **Example**:  
-    ```bash
-    sudo systemctl stop nginx
-    ```
-
-- **Restart a Service**  
-  - Stops and then starts the service, useful when changes are made to configuration files.  
-  - **Command**:  
-    ```bash
-    sudo systemctl restart <service-name>
-    ```  
-  - **Example**:  
-    ```bash
-    sudo systemctl restart nginx
-    ```
-
-- **Enable a Service**  
-  - Configures the service to start automatically at system boot.  
-  - **Command**:  
-    ```bash
-    sudo systemctl enable <service-name>
-    ```  
-  - **Example**:  
-    ```bash
-    sudo systemctl enable nginx
-    ```
-
-- **Disable a Service**  
-  - Prevents the service from starting automatically at boot.  
-  - **Command**:  
-    ```bash
-    sudo systemctl disable <service-name>
-    ```  
-  - **Example**:  
-    ```bash
-    sudo systemctl disable nginx
-    ```
+- name: Restart production web server
+  systemd:
+    name: nginx
+    state: restarted
+ ```
 
 
 
 
 
-
-
-
-## 🧯 Troubleshooting
-
-
-| Issue                | Solution                                                           |
-|----------------------|--------------------------------------------------------------------|
-| Service won't start  | Use `journalctl -xe` to check logs                                 |
-| Permission denied    | Ensure the command is run with `sudo`                              |
-| Service not found    | Confirm the service is installed (`systemctl list-unit-files`)     |
-| Changes not applied  | Use `systemctl daemon-reexec` or `systemctl daemon-reload`         |
-
-
-## 📧 Contact Information
-
-| Name       | Email Address                |
-|------------|------------------------------|
-| Anitha     |anitha.annem.snaatak@mygurukulam.co|
-
-
-
-
-## 📚 References
-
-| Link                                                                 | Title / Description                             |
-|----------------------------------------------------------------------|--------------------------------------------------|
-| [https://www.linode.com/docs/guides/introduction-to-systemctl/](https://www.linode.com/docs/guides/introduction-to-systemctl/) | Introduction to systemctl and systemctl commands |
 
