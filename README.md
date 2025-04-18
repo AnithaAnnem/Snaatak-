@@ -12,6 +12,19 @@
 ## Continuous Deployment (CD) Workflow with Ansible Playbook 🚀
 
 
+## 📑 Table of Contents
+- [✅ What is an Ansible Playbook?](#-what-is-an-ansible-playbook)
+- [🔄 What is a CD (Continuous Deployment) Workflow?](#-what-is-a-cd-continuous-deployment-workflow)
+- [🔧 CD Workflow Using Ansible Playbook – Step-by-Step](#-cd-workflow-using-ansible-playbook--step-by-step)
+  - [📂 Code Checkout and Branching](#-code-checkout-and-branching)
+  - [📦 Build and Package the Application](#-build-and-package-the-application)
+  - [🚚 Deploying the Application to Staging](#-deploying-the-application-to-staging)
+  - [🧪 Testing the Staging Environment](#-testing-the-staging-environment)
+  - [✅ Approval and Production Deployment](#-approval-and-production-deployment)
+- [📧 Contact Information](#-contact-information)
+- [📚 References](#-references)
+
+
 ✅ **What is an Ansible Playbook?**  
 
 An Ansible Playbook is a YAML file that defines a set of automation tasks to be run on remote systems. It tells Ansible what to do, where to do it, and how.
@@ -36,9 +49,8 @@ Continuous Deployment (CD) is the process of automatically deploying every chang
 
 Here’s how you can implement a CD pipeline using Ansible:
 
+![image](https://github.com/user-attachments/assets/cf6db3ec-8578-4900-ae05-7231e45892e2)
 
-Git Push ➡️ CI/CD Tool ➡️ Ansible Playbook ➡️  
-[Pull Code ➡️ Install ➡️ Build ➡️ Configure ➡️ Restart ➡️ Verify]
 
 
 ##  Code Checkout and Branching
@@ -163,6 +175,19 @@ If the approval is automatic, the playbook can trigger production deployment:
     name: nginx
     state: restarted
  ```
+
+## 📧 Contact Information
+
+| Name       | Email Address                |
+|------------|------------------------------|
+| Anitha     |anitha.annem.snaatak@mygurukulam.co|
+
+
+## 📚 References
+
+| Link | Description |
+|------|-------------|
+| [https://faun.pub/5-ansible-playbooks-you-cant-live-without-in-your-ci-cd-pipeline-140549f3abcb](https://faun.pub/5-ansible-playbooks-you-cant-live-without-in-your-ci-cd-pipeline-140549f3abcb) | Documentation used from this link |
 
 
 
