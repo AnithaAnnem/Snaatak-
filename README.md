@@ -3,12 +3,10 @@
 ![image](https://github.com/user-attachments/assets/57b80e28-7839-41e6-a2b7-a946fc02966c)
 
 
-## 📂 Document Info
-
-| Author   | Created on | Version  | Last Edited On | Internal-Reviewer | L0-Reviewer  | L1-Reviewer | L2-Reviewer  | 
-|----------|------------|----------|----------------|-------------------|--------------|-------------|--------------|
-| Anitha  | 16-04-25   | version 1| 18-04-25       | priyanshu     | Khushi| mukul joshi | Piyush upadyay | 
-
+|**Date**| **Version**| **Description**| **Changed By** |
+|----------|---------|---------------|-----------------|
+|**April 16** | v.1.0 | Initial Draft | Anitha Annem |
+|**April 19** | v.1.1 | Updated documentation.md | Anitha Annem |
 
 # Table of Contents 📑
 
@@ -33,19 +31,19 @@ Java is one of the most popular and versatile programming languages, widely used
 
 # Key Uses of Java
 
-**Web Applications 🌐**
+**Web Applications**
 
 Java powers many server-side applications, including websites and web services. The Spring Framework is one of the most popular Java-based frameworks for web development.
 
- **Mobile Applications 📱**
+ **Mobile Applications**
 
 Java is the primary language for developing Android applications, making it essential for mobile app development.
 
-**Desktop Applications 🖥️**
+**Desktop Applications**
 
 With JavaFX and Swing, Java allows developers to create powerful desktop applications with rich user interfaces.
 
-**Embedded Systems 🏠**
+**Embedded Systems**
 
 Java is used in embedded systems such as IoT devices, smart cards, and appliances, thanks to its portability and scalability.
 
@@ -200,13 +198,27 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
 
 | **Issue** | **Possible Causes** | **Solutions** |
 |-----------|---------------------|--------------|
-| **Java is Not Recognized** ❌ | JAVA_HOME or PATH environment variables are not set correctly. | - Check if `JAVA_HOME` is set correctly.<br>- Ensure the `PATH` variable includes `%JAVA_HOME%\bin` (Windows) or `$JAVA_HOME/bin` (macOS/Linux). |
-| **Permission Errors During Installation** 🔒 | Insufficient permissions for installing software. | - On Windows, ensure you are using an Administrator account to install.<br>- On macOS/Linux, use `sudo` for installation (e.g., `sudo apt install openjdk-11-jdk`). |
-| **JDK Version Mismatch** 🔄 | An older version of Java might be installed. | - Download the latest version of the JDK from the [Oracle JDK website](https://www.oracle.com/java/technologies/javase-jdk-downloads.html).<br>- If using an older version, uninstall it and install the latest version. |
-| **Java Not Running After Installation (Linux)** 🚫 | Incorrect `JAVA_HOME` path or `java` command location. | - Check the `JAVA_HOME` path to ensure it points to the correct JDK directory.<br>- Verify the location of `java` with the command: `which java` and ensure it's the correct version. |
-| **Unable to Download JDK** 📥 | Network issues, or Oracle website is down. | - Check your internet connection.<br>- Try downloading the JDK from a different network or use an alternative mirror for JDK downloads. |
-| **Incompatible JDK Version** ⚠️ | JDK version incompatible with your project requirements. | - Ensure the version of JDK you're installing matches the version needed for your project (e.g., Java 8 vs. Java 11).<br>- If you're working with legacy applications, consider installing Java 8 (JDK 1.8). |
+| **Java is Not Recognized**  | JAVA_HOME or PATH environment variables are not set correctly. | - Check if `JAVA_HOME` is set correctly.<br>- Ensure the `PATH` variable includes `%JAVA_HOME%\bin` (Windows) or `$JAVA_HOME/bin` (macOS/Linux). |
+| **Permission Errors During Installation**  | Insufficient permissions for installing software. | - On Windows, ensure you are using an Administrator account to install.<br>- On macOS/Linux, use `sudo` for installation (e.g., `sudo apt install openjdk-11-jdk`). |
+| **JDK Version Mismatch**  | An older version of Java might be installed. | - Download the latest version of the JDK from the [Oracle JDK website](https://www.oracle.com/java/technologies/javase-jdk-downloads.html).<br>- If using an older version, uninstall it and install the latest version. |
+| **Java Not Running After Installation (Linux)**  | Incorrect `JAVA_HOME` path or `java` command location. | - Check the `JAVA_HOME` path to ensure it points to the correct JDK directory.<br>- Verify the location of `java` with the command: `which java` and ensure it's the correct version. |
+| **Unable to Download JDK**  | Network issues, or Oracle website is down. | - Check your internet connection.<br>- Try downloading the JDK from a different network or use an alternative mirror for JDK downloads. |
+| **Incompatible JDK Version** ⚠ | JDK version incompatible with your project requirements. | - Ensure the version of JDK you're installing matches the version needed for your project (e.g., Java 8 vs. Java 11).<br>- If you're working with legacy applications, consider installing Java 8 (JDK 1.8). |
 
+
+# conclusion
+
+Java is a powerful, platform-independent programming language that continues to play a crucial role in software development across various domains—ranging from web and mobile applications to desktop software and embedded systems.
+
+- This documentation has covered:
+
+- The purpose and key uses of Java
+
+- Steps to verify and install Java on macOS and Linux
+
+- How to configure environment variables
+
+- Troubleshooting common installation issues
 
 
 #  Contact Information 
