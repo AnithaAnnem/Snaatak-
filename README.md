@@ -3,28 +3,27 @@
 
 
 
-## 📂 Document Info
-
-| Author          | Created On  | Version   | Last Updated By | Last Edited On |
-|-----------------|-------------|-----------|------------------|----------------|
-| Annem Anithaa  | 2025-04-14  | Version 1 |Annem Anitha  | 2025-04-18     |
-
+|**Date**| **Version**| **Description**| **Changed By** |
+|----------|---------|---------------|-----------------|
+|**April 15** | v.1.0 | Initial Draft | Anitha Annem |
+|**April 19** | v.1.1 | Updated sop_services.md | Anitha Annem |
 
 
 ## 📖 Table of Contents
-
-1. [📌 Purpose](#-purpose)
-2. [🛠️ Prerequisites](#️-prerequisites)
-3. [📘 Definitions](#-definitions)
-4. [🚦 Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
-5. [🧯 Troubleshooting](#-troubleshooting)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
-
-
+1. [Introduction](#Introduction)
+2. [ Purpose](#-purpose)
+3. [ Prerequisites](#️-prerequisites)
+4. [ Definitions](#-definitions)
+5. [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
+6. [ Troubleshooting](#-troubleshooting)
+7. [ Contact Information](#-contact-information)
+8. [ References](#-references)
 
 
 
+# Introduction
+
+A Standard Operating Procedure (SOP) is a set of step-by-step instructions compiled by an organization to help workers carry out routine operations. SOPs are essential in ensuring that tasks are performed consistently, efficiently, and safely across an organization. They provide clear guidelines on how to handle specific processes, ensuring that the same procedures are followed by all team members.
 
   
  
@@ -34,14 +33,16 @@
 # 🧾**Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
 
 
-##  📌 Purpose
+
+
+#  📌 Purpose
 
 This SOP provides standardized procedures for managing services (start, stop, restart, enable, disable, check status) on Ubuntu OS.
 
 
 
 
-##  🛠️ Prerequisites
+#  🛠️ Prerequisites
 
 To ensure the successful management of the service on Ubuntu, the following prerequisites must be met:
 
@@ -64,7 +65,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-## 📘 Definitions
+# 📘 Definitions
 
 
 
@@ -78,7 +79,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-##  🚦 Service Management Commands with systemctl
+#  🚦 Service Management Commands with systemctl
 
 
 
@@ -157,7 +158,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-## 🧯 Troubleshooting
+# 🧯 Troubleshooting
 
 
 | Issue                | Solution                                                           |
@@ -168,7 +169,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 | Changes not applied  | Use `systemctl daemon-reexec` or `systemctl daemon-reload`         |
 
 
-## 📧 Contact Information
+# 📧 Contact Information
 
 | Name       | Email Address                |
 |------------|------------------------------|
@@ -177,9 +178,8 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-## 📚 References
+# 📚 References
 
 | Link                                                                 | Title / Description                             |
 |----------------------------------------------------------------------|--------------------------------------------------|
 | [https://www.linode.com/docs/guides/introduction-to-systemctl/](https://www.linode.com/docs/guides/introduction-to-systemctl/) | Introduction to systemctl and systemctl commands |
-
