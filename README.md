@@ -18,8 +18,9 @@
 6. [Installing Java on macOS ](#installing-java-on-macos-)
 7. [Installing Java on Linux ](#installing-java-on-linux-)
 8. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
-9. [Contact Information](#contact-information)
-10. [References ](#references-)
+9. [conclusion](#conclusion)
+10. [Contact Information](#contact-information)
+11. [References ](#references-)
 
 
 
