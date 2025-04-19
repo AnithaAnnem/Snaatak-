@@ -25,7 +25,7 @@
    - [One-Way Data Binding](#54-one-way-data-binding)
    - [React Hooks](#55-react-hooks)
    - [React Router in React Application](#56-react-router-in-react-application)
-6. [conclusion](#-conclusion)
+6. [conclusion](#conclusion)
 7. [Contact Information](#-contact-information)
 8. [References](#-references)
 
