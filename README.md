@@ -1,30 +1,35 @@
 ![image](https://github.com/user-attachments/assets/f694713a-5617-4094-b291-c47eb87d21ee)
 
 
-## 📂 Document Info
-
-| Author   | Created on | Version  | Last Edited On | Internal-Reviewer | L0-Reviewer  | L1-Reviewer | L2-Reviewer  | 
-|----------|------------|----------|----------------|-------------------|--------------|-------------|--------------|
-| Anitha  | 16-04-25   | version 1| 18-04-25       | priyanshu     | Khushi| mukul joshi | Piyush upadyay |
-
+|**Date**| **Version**| **Description**| **Changed By** |
+|----------|---------|---------------|-----------------|
+|April 18 | v.1.0 | Initial Draft | Anitha Annem |
+|April 19 | v.1.1 | Updated documentation.md | Anitha Annem |
 
 
-# 🚀 Migrate: Introduction Documentation
 
-Welcome to the Migration Introduction Documentation! This guide helps you understand the basics of migration, why it matters, the types, tools, and how to plan for a successful migration journey.
 
 ---
 
 ## 📝 Table of Contents
-
+- [Introduction](#Introduction)
 - [ What is Migration?](#-what-is-migration)
 - [ Why Migrate?](#-why-migrate)
 - [ Purpose of Migration](#-purpose-of-migration)
 - [ Prerequisites for Migration](#-prerequisites-for-migration)
 - [Key Features of Migration Tools](#key-features-of-migration-tools)
 - [ Types of Migration](#️-types-of-migration)
+- [conclusion](#conclusion) 
+- [Contact Information](#-Contact-Information)
+
 
 ---
+# Introduction
+
+migration refers to the process of moving data, applications, or entire systems from one computing environment to another. This process can range from simple data transfers to complex infrastructure overhauls or application reengineering.
+
+Organizations often undertake migration to improve system performance, reduce costs, enhance security, or adopt modern technologies such as cloud computing. Migration can involve moving from on-premises systems to cloud platforms, switching between service providers, upgrading databases, or transitioning from legacy systems to more advanced architectures.
+
 
 # 🔄 What is Migration?
 
@@ -156,6 +161,9 @@ Depending on the objective, migrations can vary:
 - 🌐 **Content Migration**: Move content between CMSs or platforms.  
 
 ---
+# conclusion 
+
+Migration plays a crucial role in modern IT strategy, enabling organizations to stay agile, secure, and competitive in an ever-evolving digital landscape. Whether it's moving data, applications, or entire infrastructures, migration helps unlock performance improvements, cost efficiencies, enhanced security, and access to innovative technologies.
 
 
 #  Contact Information 
@@ -170,4 +178,3 @@ Depending on the objective, migrations can vary:
 | **Link**                                                               | **Description**               |
 |------------------------------------------------------------------------|-------------------------------|
 | [Red Hat - What is IT Migration?](https://www.redhat.com/en/topics/automation/what-is-it-migration) | Overview of Migration         |
-
