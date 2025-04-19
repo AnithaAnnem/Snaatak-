@@ -2,12 +2,10 @@
 
 ![image](https://github.com/user-attachments/assets/73592ff1-ac7d-4181-ab9c-69b65b39ed33)
 
-## 📂 Document Info
-
-| Author   | Created on | Version  | Last Edited On | Internal-Reviewer | L0-Reviewer  | L1-Reviewer | L2-Reviewer  | 
-|----------|------------|----------|----------------|-------------------|--------------|-------------|--------------|
-| Anitha  | 18-04-25   | version 1| 19-04-25       | priyanshu     | Khushi| mukul joshi | Piyush upadyay |
-
+|**Date**| **Version**| **Description**| **Changed By** |
+|----------|---------|---------------|-----------------|
+|**April 18** | v.1.0 | Initial Draft | Anitha Annem |
+|**April 19** | v.1.1 | Updated cd.md | Anitha Annem |
 
 ## Continuous Deployment (CD) Workflow with Ansible Playbook 🚀
 
@@ -189,8 +187,6 @@ If the approval is automatic, the playbook can trigger production deployment:
 | Link | Description |
 |------|-------------|
 | [https://faun.pub/5-ansible-playbooks-you-cant-live-without-in-your-ci-cd-pipeline-140549f3abcb](https://faun.pub/5-ansible-playbooks-you-cant-live-without-in-your-ci-cd-pipeline-140549f3abcb) | Documentation used from this link |
-
-
 
 
 
