@@ -25,7 +25,7 @@
    - [One-Way Data Binding](#54-one-way-data-binding)
    - [React Hooks](#55-react-hooks)
    - [React Router in React Application](#56-react-router-in-react-application)
-6. [Conclusion](#-Conclusion)
+6. [conclusion](#-conclusion)
 7. [Contact Information](#-contact-information)
 8. [References](#-references)
 
@@ -199,7 +199,7 @@ In this example:
 
   - The path specifies the URL path, and the element is the component that will render when the path matches.
 
-# Conclusion
+# conclusion
 
 React is a powerful and flexible JavaScript library that simplifies the process of building dynamic and interactive user interfaces. Its component-based architecture, Virtual DOM, one-way data binding, and hooks provide developers with the tools needed to create scalable, maintainable, and high-performing applications.
 
