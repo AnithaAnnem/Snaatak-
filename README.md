@@ -6,7 +6,7 @@
 |**Date**| **Version**| **Description**| **Changed By** |
 |----------|---------|---------------|-----------------|
 |**April 16** | v.1.0 | Initial Draft | Anitha Annem |
-|**April 19** | v.1.1 | Updated documentation.md | Anitha Annem |
+|**April 19** | v.1.1 | Updated installation_guide.md | Anitha Annem |
 
 # Table of Contents 📑
 
