@@ -7,6 +7,8 @@
 |----------|---------|---------------|-----------------|
 |**April 16** | v.1.0 | Initial Draft | Anitha Annem |
 |**April 19** | v.1.1 | Updated installation_guide.md | Anitha Annem |
+|**April 20** | v.1.2 | Updated installation_guide.md | Anitha Annem |
+
 
 # Table of Contents 
 
@@ -24,11 +26,12 @@
 
 
 
+# Introduction 
+This document covers the stp by step installation of the java in different operating systems and trouble shooting issues  
 
+# What is Java? 
 
-# Purpose of Java 
-
-Java is one of the most popular and versatile programming languages, widely used for building cross-platform applications. Below are some key areas where Java is essential:
+Java is a high level object oriented programming language(oops) one of the most popular and versatile programming languages, widely used for building cross-platform applications. Below are some key areas where Java is essential:
 
 # Key Uses of Java
 
