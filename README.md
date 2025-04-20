@@ -46,7 +46,7 @@ This document covers the introduction to the React Js by
 
 
  
-# What is React ?
+# What is React ? 
 
 **React** (or **React.js**) is a popular JavaScript library for building user interfaces, especially **single-page applications (SPAs)**. Created by Facebook in 2013, React enables developers to build **reusable UI components** that efficiently update the UI when data changes.
 
