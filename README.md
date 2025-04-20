@@ -10,16 +10,16 @@
 |**April 20** | v.1.2 | Updated sop_services.md | Anitha Annem |
 
 
-#  Table of Contents
--  [Introduction](#Introduction)
--  [ Purpose](#-purpose)
--  [ Prerequisites](#️-prerequisites)
--  [ Definitions](#-definitions)
--  [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
--  [ Troubleshooting](#-troubleshooting)
--  [conclusion](#conclusion)
--  [ Contact Information](#-contact-information)
--  [ References](#-references)
+# Table of Contents
+   [Introduction](#Introduction)
+   [ Purpose](#-purpose)
+   [ Prerequisites](#️-prerequisites)
+   [ Definitions](#-definitions)
+   [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
+   [ Troubleshooting](#-troubleshooting)
+   [conclusion](#conclusion)
+   [ Contact Information](#-contact-information)
+   [ References](#-references)
 
 
 # **Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
