@@ -12,7 +12,7 @@
 
 ---
 
-##  Table of Contents
+#  Table of Contents
 - [Introduction](#Introduction)
 - [ What is Migration?](#-what-is-migration)
 - [ Why Migrate?](#-why-migrate)
@@ -164,7 +164,7 @@ Depending on the objective, migrations can vary:
 Migration plays a crucial role in modern IT strategy, enabling organizations to stay agile, secure, and competitive in an ever-evolving digital landscape. Whether it's moving data, applications, or entire infrastructures, migration helps unlock performance improvements, cost efficiencies, enhanced security, and access to innovative technologies.
 
 
-#  Contact  
+# Contact  
 
 | Name       | Email Address                |
 |------------|------------------------------|
