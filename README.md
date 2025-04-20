@@ -10,38 +10,49 @@
 |**April 20** | v.1.2 | Updated sop_services.md | Anitha Annem |
 
 
-##  Table of Contents
-1. [Introduction](#Introduction)
-2. [ Purpose](#-purpose)
-3. [ Prerequisites](#️-prerequisites)
-4. [ Definitions](#-definitions)
-5. [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
-6. [ Troubleshooting](#-troubleshooting)
-7. [ Contact Information](#-contact-information)
-8. [ References](#-references)
+#  Table of Contents
+-  [Introduction](#Introduction)
+-  [ Purpose](#-purpose)
+-  [ Prerequisites](#️-prerequisites)
+-  [ Definitions](#-definitions)
+-  [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
+-  [ Troubleshooting](#-troubleshooting)
+-  [conclusion](#conclusion)
+-  [ Contact Information](#-contact-information)
+-  [ References](#-references)
 
 
+# **Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
 
 # Introduction
 
-In this document we are covering the Standard Operating Procedure for starting,enabling,disabling,and checking the status of the services by using systemctl system command.
- 
+In this documentation The SOP provides a clear and consistent process for managing services on Ubuntu using the systemctl command. 
+
+
+# What is SOP ?
+
+SOP stands for Standard Operating Procedure.
+It is a written document that gives clear, step-by-step instructions on how to perform a specific task or process.
+
+It's like a guide or manual that ensures things are done correctly, safely, and consistently every time.
+
+
+# Why SOP ?
+
+ - Ensures Consistency Across Operations
+ - Improves Efficiency and Productivity
+ - Enhances Safety and Reduces Risk
 
 
 
-# 🧾**Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
-
-
-
-
-#  📌 Purpose
+# Purpose
 
 This SOP provides standardized procedures for managing services (start, stop, restart, enable, disable, check status) on Ubuntu OS.
 
 
 
 
-#  🛠️ Prerequisites
+# Prerequisites
 
 To ensure the successful management of the service on Ubuntu, the following prerequisites must be met:
 
@@ -64,7 +75,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-# 📘 Definitions
+# Definitions
 
 
 
@@ -78,13 +89,13 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-#  🚦 Service Management Commands with systemctl
+# Service Management Commands with systemctl
 
 
 
 
 
-- **🔍 Check Status of a Service**  
+- **Check Status of a Service**  
   - Displays whether the service is active (running) or inactive.  
   - **Command**:  
     ```bash
@@ -157,7 +168,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-# 🧯 Troubleshooting
+# Troubleshooting
 
 
 | Issue                | Solution                                                           |
@@ -168,7 +179,14 @@ To ensure the successful management of the service on Ubuntu, the following prer
 | Changes not applied  | Use `systemctl daemon-reexec` or `systemctl daemon-reload`         |
 
 
-# 📧 Contact Information
+# conclusion 
+
+This SOP provides a clear and consistent process for managing services on Ubuntu using the systemctl command. By following the outlined steps, users can efficiently start, stop, restart, enable, disable, and check the status of services, ensuring smooth operation of the system. The procedures promote consistency, improve productivity, and reduce the risk of errors during service management tasks.
+With proper prerequisites met and troubleshooting tips in place, this SOP serves as a reliable guide for both new and experienced users to maintain and manage services on Ubuntu systems effectively.
+
+
+
+# Contact Information
 
 | Name       | Email Address                |
 |------------|------------------------------|
@@ -177,7 +195,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 
 
-# 📚 References
+# References
 
 | Link                                                                 | Title / Description                             |
 |----------------------------------------------------------------------|--------------------------------------------------|
