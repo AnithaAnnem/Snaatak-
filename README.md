@@ -27,7 +27,9 @@
 
 
 # Introduction 
-This document covers the stp by step installation of the java in different operating systems and trouble shooting issues  
+This document covers the stp by step installation of the java in different operating systems and configurig environment variables
+
+
 
 # What is Java? 
 
@@ -211,16 +213,6 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
 # conclusion
 
 Java is a powerful, platform-independent programming language that continues to play a crucial role in software development across various domains—ranging from web and mobile applications to desktop software and embedded systems.
-
-This documentation has covered:
-
-- The purpose and key uses of Java
-
-- Steps to verify and install Java on macOS and Linux
-
-- How to configure environment variables
-
-- Troubleshooting common installation issues
 
 
 #  Contact Information 
