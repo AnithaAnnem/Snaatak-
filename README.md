@@ -8,23 +8,23 @@
 
 
 # Table of Contents
-1. [Introduction](#Introduction)
-2. [ What is a Virtual Environment?](#1what-is-a-virtual-environment)
-3. [ Why Use a Virtual Environment?](#2why-use-a-virtual-environment)
-4. [ Purpose](#3purpose)
-5. [ Prerequisites](#4prerequisites-with-system-requirements)
-6. [ Setting Up a Virtual Environment](#5setting-up-a-virtual-environment)
+1. [Introduction](#1Introduction)
+2. [ What is a Virtual Environment?](#2what-is-a-virtual-environment)
+3. [ Why Use a Virtual Environment?](#3why-use-a-virtual-environment)
+4. [ Purpose](#4purpose)
+5. [ Prerequisites](#5prerequisites-with-system-requirements)
+6. [ Setting Up a Virtual Environment](#6setting-up-a-virtual-environment)
 7. [ Best Practices](#7best-practices)
 8. [ Common Issues & Troubleshooting](#8common-issues--troubleshooting)
-9. [conclusion](#conclusion)
-10. [Contact](#Contact)
-11. [ References](#9-references)
+9. [conclusion](#9conclusion)
+10. [Contact](#10Contact)
+11. [ References](#11-references)
 
 
-# Introduction
+# 1. Introduction
 
 
-# 1.  What is a Virtual Environment?
+# 2.  What is a Virtual Environment?
 
 A virtual environment is a self-contained directory that contains a Python interpreter and all required libraries for a specific project. It helps avoid global package installation and conflicts between projects.
 
@@ -37,7 +37,7 @@ For example:
 A virtual environment allows both versions to coexist separately.
 
 
-# 2. Why Use a Virtual Environment?
+# 3. Why Use a Virtual Environment?
 
    - **Dependency Isolation** : Keep dependencies for each project separate.
    - **Avoid Conflicts** : Prevent version clashes between projects.
@@ -47,7 +47,7 @@ A virtual environment allows both versions to coexist separately.
    - **Enhanced Collaboration** : Share consistent setups with others.
 
 
-# 3. Purpose
+# 4. Purpose
 
 The purpose of a Python virtual environment is to:
 
@@ -64,7 +64,7 @@ The purpose of a Python virtual environment is to:
 
 
 
-## 4.  Prerequisites (with System Requirements)
+## 5.  Prerequisites (with System Requirements)
 
 Before setting up a Python virtual environment, make sure your system meets the following requirements:
 
@@ -147,7 +147,7 @@ brew install python
 python3 --version
 pip3 --version
 ```
-## 5. Setting Up a Virtual Environment
+## 6. Setting Up a Virtual Environment
 
 **Step 1: Create a Virtual Environment**
 ```bash
@@ -198,7 +198,7 @@ deactivate
 
 
 
-## 6. Best Practices
+## 7. Best Practices
 
  **Create one virtual environment per project**
 Keep dependencies isolated to prevent conflicts and ensure reproducibility.
@@ -219,7 +219,7 @@ Clean up environments for old or completed projects to save disk space.
 Don’t forget to deactivate the current environment before activating another.
 
 
-# 7. Common Issues & Troubleshooting
+# 8. Common Issues & Troubleshooting
 
 | Issue                             | Solution                                                                 |
 |----------------------------------|--------------------------------------------------------------------------|
@@ -230,21 +230,21 @@ Don’t forget to deactivate the current environment before activating another.
 
 
 
-# conclusion
+# 9. conclusion
 
  virtualenv is an invaluable tool for Python development, providing a simple yet effective way to manage project-specific dependencies. By isolating each project into its own virtual environment, you can avoid conflicts between different package versions and ensure that each project remains reproducible and portable. This not only helps with version control but also streamlines collaboration and deployment.
 
 
 
 
-# Contact 
+# 10. Contact 
 
 | Name       | Email Address                |
 |------------|------------------------------|
 | Anitha     |anitha.annem.snaatak@mygurukulam.co|
 
 
-# 8. References
+# 11. References
 
 | Link                                                         | Description                              |
 |--------------------------------------------------------------|------------------------------------------|
