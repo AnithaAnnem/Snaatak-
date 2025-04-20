@@ -73,7 +73,7 @@ When a system or hardware reaches **end-of-life** and is no longer supported, mi
 
 ---
 
-##  Purpose of Migration
+# Purpose of Migration
 
 The main goal of migration is to implement change in a way that improves business processes and technology while ensuring that operations remain continuous and reliable. 
 
@@ -97,7 +97,7 @@ New technologies, platforms, and tools often bring enhanced functionalities that
 Legacy systems often come with a range of risks, including lack of support, technical debt, and incompatibility with modern tools. Migration allows businesses to move away from these old systems and reduce their associated risks.
 ---
 
-##  Prerequisites for Migration
+# Prerequisites for Migration
 
 Preparation is key to a smooth migration.
 
