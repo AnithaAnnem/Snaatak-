@@ -12,7 +12,7 @@
 
 # Table of Contents
   1. [Introduction](#Introduction)
-  2.  [What is SOP](#what-is-sop)
+  2.  [What is SOP](#what-is-sop) 
   3.  [Why SOP](#why-sop)
   4. [ Purpose](#purpose)
   5. [ Prerequisites](#️prerequisites)
