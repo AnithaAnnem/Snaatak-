@@ -212,7 +212,7 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
 
 Java is a powerful, platform-independent programming language that continues to play a crucial role in software development across various domains—ranging from web and mobile applications to desktop software and embedded systems.
 
-- This documentation has covered:
+This documentation has covered:
 
 - The purpose and key uses of Java
 
