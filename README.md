@@ -7,30 +7,46 @@
 |**Date**| **Version**| **Description**| **Changed By** |
 |----------|---------|---------------|-----------------|
 |**April 18** | v.1.0 | Initial Draft | Anitha Annem |
-|**April 19** | v.1.1 | Updated documentation.md | Anitha Annem |
+|**April 20** | v.1.1 | Updated documentation.md | Anitha Annem |
 
 
 # React Documentation
 
-# 📚 Table of Contents
+#  Table of Contents
 
 1. [Introduction ](#-Introduction )
-2. [Purpose of React](#-purpose-of-react)
-3. [Why Use React?](#-why-use-react)
-4. [Prerequisites](#-prerequisites)
-5. [Key Features of React](#-key-features-of-react)
+2. [What is React?](#-what-is-react)
+3. [Purpose of React](#-purpose-of-react)
+4. [Why Use React?](#-why-use-react)
+5. [Prerequisites](#-prerequisites)
+6. [Key Features of React](#-key-features-of-react)
    - [JSX (JavaScript XML)](#51-jsx-javascript-xml)
    - [Component-Based Architecture](#52-component-based-architecture)
    - [Virtual DOM](#53-virtual-dom)
    - [One-Way Data Binding](#54-one-way-data-binding)
    - [React Hooks](#55-react-hooks)
    - [React Router in React Application](#56-react-router-in-react-application)
-6. [conclusion](#conclusion)
-7. [Contact Information](#-contact-information)
-8. [References](#-references)
+7. [conclusion](#conclusion)
+8. [Contact Information](#-contact-information)
+9. [References](#-references)
 
 
-# 🧠 Introduction 
+
+# Introduction
+
+This document covers the introduction to the React Js by 
+- What React is and why it's widely used ?
+
+- Prerequisites needed to start working with React
+
+- In-depth explanations of key concepts like JSX, components, Virtual DOM, data binding, and React Hooks
+
+- A brief overview of React Router for client-side routing
+
+
+
+ 
+# What is React ?
 
 **React** (or **React.js**) is a popular JavaScript library for building user interfaces, especially **single-page applications (SPAs)**. Created by Facebook in 2013, React enables developers to build **reusable UI components** that efficiently update the UI when data changes.
 
@@ -42,7 +58,7 @@ React focuses on:
 -  **Scalability across web and mobile** – Use React for web apps and React Native for building native mobile apps with shared logic.
 
 
-# 🎯 Purpose of React
+#  Purpose of React
 
 The main purpose of React is to build **dynamic**, **modern**, and **interactive** user interfaces in an efficient and organized way. It empowers developers to create high-performing applications with a clear structure and maintainability.
 
@@ -57,7 +73,7 @@ React helps by:
 React helps teams build applications that are **fast**, **interactive**, and **easy to manage**.
 
 
-# 🚀 Why Use React?
+#  Why Use React?
 
 React is a top choice for building modern web applications, and here’s why many developers love it:
 
@@ -71,7 +87,7 @@ React is a top choice for building modern web applications, and here’s why man
 React combines power, flexibility, and a supportive community to help you build **scalable, maintainable, and high-performance apps**.
 
 
-# 🧰 Prerequisites
+#  Prerequisites
 
 Before diving into React, it's helpful to have a solid understanding of the following concepts:
 
@@ -83,12 +99,9 @@ Before diving into React, it's helpful to have a solid understanding of the foll
 | **Node.js & npm/yarn** | Used to manage packages and run React apps locally. |
 | **Git & CLI basics** | Useful for version control and running terminal commands. |
 
-> 💡 **Optional but useful:**
-> - Basic understanding of **REST APIs** and **JSON** for handling data
-> - Familiarity with any other **JavaScript framework or library** (like Vue or Angular) for comparison
 
 
-# 🔑 Key Features of React
+#  Key Features of React
 
 ### 5.1 JSX (JavaScript XML)
 
@@ -104,9 +117,9 @@ React transforms this JSX into standard JavaScript at build time. Behind the sce
 
 ### Benefits of JSX:
 
-- 🎨 **Makes the code more readable** – JSX combines the structure and logic in one place, making it easier to understand.
-- 📐 **Helps visualize UI structures clearly** – JSX provides a clear visual representation of the UI components.
-- 🚀 **Allows developers to write UI logic and markup together** – Combine HTML-like markup with JavaScript functionality for smoother development.
+-  **Makes the code more readable** – JSX combines the structure and logic in one place, making it easier to understand.
+-  **Helps visualize UI structures clearly** – JSX provides a clear visual representation of the UI components.
+-  **Allows developers to write UI logic and markup together** – Combine HTML-like markup with JavaScript functionality for smoother development.
 
 ### 5.2 Component-Based Architecture
 
@@ -209,14 +222,14 @@ By promoting code reusability, efficient rendering, and clear data flow, React h
 
 
 
-# 📧 Contact Information
+#  Contact Information
 
 | Name       | Email Address                |
 |------------|------------------------------|
 | Anitha     |anitha.annem.snaatak@mygurukulam.co|
 
 
-# 📚 References
+#  References
 
 
 | Link                                                              | Resource                            | Reference                                           |
