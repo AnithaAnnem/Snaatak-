@@ -58,7 +58,7 @@ React focuses on:
 -  **Scalability across web and mobile** – Use React for web apps and React Native for building native mobile apps with shared logic.
 
 
-#  Purpose of React
+# Purpose of React
 
 The main purpose of React is to build **dynamic**, **modern**, and **interactive** user interfaces in an efficient and organized way. It empowers developers to create high-performing applications with a clear structure and maintainability.
 
@@ -73,7 +73,7 @@ React helps by:
 React helps teams build applications that are **fast**, **interactive**, and **easy to manage**.
 
 
-#  Why Use React?
+# Why Use React?
 
 React is a top choice for building modern web applications, and here’s why many developers love it:
 
@@ -87,7 +87,7 @@ React is a top choice for building modern web applications, and here’s why man
 React combines power, flexibility, and a supportive community to help you build **scalable, maintainable, and high-performance apps**.
 
 
-#  Prerequisites
+# Prerequisites
 
 Before diving into React, it's helpful to have a solid understanding of the following concepts:
 
@@ -101,7 +101,7 @@ Before diving into React, it's helpful to have a solid understanding of the foll
 
 
 
-#  Key Features of React
+# Key Features of React
 
 ### 5.1 JSX (JavaScript XML)
 
@@ -222,14 +222,14 @@ By promoting code reusability, efficient rendering, and clear data flow, React h
 
 
 
-#  Contact Information
+# Contact Information
 
 | Name       | Email Address                |
 |------------|------------------------------|
 | Anitha     |anitha.annem.snaatak@mygurukulam.co|
 
 
-#  References
+# References
 
 
 | Link                                                              | Resource                            | Reference                                           |
