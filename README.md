@@ -37,7 +37,7 @@ For example:
 A virtual environment allows both versions to coexist separately.
 
 
-# 2.  Why Use a Virtual Environment?
+# 2. Why Use a Virtual Environment?
 
    - **Dependency Isolation** : Keep dependencies for each project separate.
    - **Avoid Conflicts** : Prevent version clashes between projects.
@@ -47,7 +47,7 @@ A virtual environment allows both versions to coexist separately.
    - **Enhanced Collaboration** : Share consistent setups with others.
 
 
-# 3.  Purpose
+# 3. Purpose
 
 The purpose of a Python virtual environment is to:
 
@@ -64,7 +64,7 @@ The purpose of a Python virtual environment is to:
 
 
 
-## 4.   Prerequisites (with System Requirements)
+## 4.  Prerequisites (with System Requirements)
 
 Before setting up a Python virtual environment, make sure your system meets the following requirements:
 
@@ -147,7 +147,7 @@ brew install python
 python3 --version
 pip3 --version
 ```
-## 5.  Setting Up a Virtual Environment
+## 5. Setting Up a Virtual Environment
 
 **Step 1: Create a Virtual Environment**
 ```bash
@@ -198,7 +198,7 @@ deactivate
 
 
 
-## 6.  Best Practices
+## 6. Best Practices
 
  **Create one virtual environment per project**
 Keep dependencies isolated to prevent conflicts and ensure reproducibility.
@@ -218,7 +218,8 @@ Clean up environments for old or completed projects to save disk space.
  **Use `deactivate` when switching contexts**
 Don’t forget to deactivate the current environment before activating another.
 
-## 7. Common Issues & Troubleshooting
+
+# 7. Common Issues & Troubleshooting
 
 | Issue                             | Solution                                                                 |
 |----------------------------------|--------------------------------------------------------------------------|
