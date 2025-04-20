@@ -21,7 +21,7 @@
 
   5. [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
 
-  6. [ Troubleshooting](#-troubleshooting)
+  6. [ Troubleshooting](#troubleshooting)
 
   7.  [conclusion](#conclusion)
 
