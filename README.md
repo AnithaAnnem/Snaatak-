@@ -19,7 +19,7 @@
 - [ Purpose of Migration](#purpose-of-migration)
 - [ Prerequisites for Migration](#prerequisites-for-migration)
 - [Key Features of Migration Tools](#key-features-of-migration-tools)
-- [ Types of Migration](#️-types-of-migration)
+- [Types of Migration](#️types-of-migration)
 - [conclusion](#conclusion) 
 - [ Contact ](#contact)
 - [References](#References)
@@ -149,7 +149,7 @@ Many migration tools are designed to be compatible with different operating syst
 
 ---
 
-## Types of Migration
+# Types of Migration
 
 Depending on the objective, migrations can vary:
 
