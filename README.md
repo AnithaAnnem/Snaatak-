@@ -14,7 +14,7 @@
 
 #  Table of Contents
 
-1. [Introduction ](#-Introduction )
+1. [Introduction](#Introduction)
 2. [What is React?](#-what-is-react)
 3. [Purpose of React](#-purpose-of-react)
 4. [Why Use React?](#-why-use-react)
