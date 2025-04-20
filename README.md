@@ -12,23 +12,15 @@
 
 # Table of Contents
   1. [Introduction](#Introduction)
-
-  2. [ Purpose](#purpose)
-  3. [What is SOP ?](#what-is-sop?)
-  4. [Why SOP ?](#why-sop?)
-
+  2.  [What is SOP](#what-is-sop)
+  3.  [Why SOP](#why-sop)
+  4. [ Purpose](#purpose)
   5. [ Prerequisites](#️prerequisites)
-
   6. [ Definitions](#definitions)
-
   7. [ Service Management Commands with systemctl](#service-management-commands-with-systemctl)
-
   8. [ Troubleshooting](#troubleshooting)
-
   9.  [conclusion](#conclusion)
-
   10. [ Contact Information](#contact-information)
-
   11. [ References](#references)
 
 
@@ -39,7 +31,7 @@
 In this documentation The SOP provides a clear and consistent process for managing services on Ubuntu using the systemctl command. 
 
 
-# What is SOP ?
+# What is SOP 
 
 SOP stands for Standard Operating Procedure.
 It is a written document that gives clear, step-by-step instructions on how to perform a specific task or process.
@@ -47,7 +39,7 @@ It is a written document that gives clear, step-by-step instructions on how to p
 It's like a guide or manual that ensures things are done correctly, safely, and consistently every time.
 
 
-# Why SOP ?
+# Why SOP 
 
  - Ensures Consistency Across Operations
  - Improves Efficiency and Productivity
