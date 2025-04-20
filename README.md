@@ -91,7 +91,7 @@ React combines power, flexibility, and a supportive community to help you build 
 
 Before diving into React, it's helpful to have a solid understanding of the following concepts:
 
-| ✅ Skill | 💡 Description |
+|  Skill |  Description |
 |---------|----------------|
 | **HTML/CSS** | Understand how web pages are structured and styled. |
 | **JavaScript (ES6+)** | Know variables, arrays, objects, functions, arrow functions, destructuring, etc. |
