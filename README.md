@@ -3,10 +3,11 @@
 |**Date**| **Version**| **Description**| **Changed By** |
 |----------|---------|---------------|-----------------|
 |April 16 | v.1.0 | Initial Draft | Anitha Annem |
-|April 19 | v.1.1 | Updated documentation.md | Anitha Annem | 
+|April 19 | v.1.1 | Updated documentation.md | Anitha Annem |
+|April 20 | v.1.2 | Updated documentation.md | Anitha Annem | 
 
 
-## 📖 Table of Contents
+# Table of Contents
 1. [Introduction](#Introduction)
 2. [ What is a Virtual Environment?](#1--what-is-a-virtual-environment)
 3. [ Why Use a Virtual Environment?](#2--why-use-a-virtual-environment)
@@ -22,11 +23,8 @@
 
 # Introduction
 
-virtualenv is a tool used to create isolated Python environments. It allows you to manage dependencies for different projects separately by creating a dedicated environment for each one. This helps avoid conflicts between packages and makes your development workflow cleaner and more manageable.
 
-Instead of installing Python packages globally (which can lead to version clashes and permission issues), virtualenv sets up a local directory with its own Python interpreter and site-packages. This is especially useful when working on multiple projects that require different versions of libraries or Python itself.
-
-# 1. 📦 What is a Virtual Environment?
+# 1.  What is a Virtual Environment?
 
 A virtual environment is a self-contained directory that contains a Python interpreter and all required libraries for a specific project. It helps avoid global package installation and conflicts between projects.
 
@@ -39,7 +37,7 @@ For example:
 A virtual environment allows both versions to coexist separately.
 
 
-# 2. ✅ Why Use a Virtual Environment?
+# 2.  Why Use a Virtual Environment?
 
    - **Dependency Isolation** : Keep dependencies for each project separate.
    - **Avoid Conflicts** : Prevent version clashes between projects.
@@ -49,7 +47,7 @@ A virtual environment allows both versions to coexist separately.
    - **Enhanced Collaboration** : Share consistent setups with others.
 
 
-# 3. 🎯 Purpose
+# 3.  Purpose
 
 The purpose of a Python virtual environment is to:
 
@@ -66,7 +64,7 @@ The purpose of a Python virtual environment is to:
 
 
 
-## 4. ⚙️  Prerequisites (with System Requirements)
+## 4.   Prerequisites (with System Requirements)
 
 Before setting up a Python virtual environment, make sure your system meets the following requirements:
 
@@ -79,7 +77,7 @@ Before setting up a Python virtual environment, make sure your system meets the 
 | **Terminal / CLI**       | Any terminal (cmd, bash, PowerShell, etc.) | Default with all OS. Use: <br> - **Command Prompt / PowerShell** (Windows) <br> - **Terminal** (macOS/Linux)                                                        |
 | **Text Editor or IDE** *(Optional)* | VS Code, PyCharm, Sublime, etc. | 🔹 [VS Code](https://code.visualstudio.com/) <br> 🔹 [PyCharm](https://www.jetbrains.com/pycharm/)  
 
-## 📜 Summary of Installation Commands
+##  Summary of Installation Commands
     here are the key installation/check commands:
 
   **Check if Python is Installed**
@@ -98,7 +96,7 @@ Before setting up a Python virtual environment, make sure your system meets the 
    If you get a "command not found" error, Python is likely not installed.
 
 
-   **📦 Install pip (if missing)**
+   ** Install pip (if missing)**
    ```bash
     python -m ensurepip --upgrade
    ```
@@ -113,7 +111,7 @@ Before setting up a Python virtual environment, make sure your system meets the 
 
    ```
 
-  **⬆️ Upgrade pip (Recommended)**
+  **Upgrade pip (Recommended)**
 
 Before installing dependencies, it's recommended to upgrade `pip` to the latest version:
 
@@ -127,7 +125,7 @@ python -m pip install --upgrade pip
 
    ```
 
-**🐧 Install Python on Linux (Ubuntu/Debian)**
+**Install Python on Linux (Ubuntu/Debian)**
 ```bash
 sudo apt update
 sudo apt install python3 python3-venv python3-pip
@@ -138,7 +136,7 @@ python3 --version
 pip3 --version
 ```
 
-**🍎 Optional: Install Python on macOS via Homebrew**
+**Optional: Install Python on macOS via Homebrew**
 Requires Homebrew. Install Homebrew if not already installed.
 ```bash
 brew install python
@@ -149,9 +147,9 @@ brew install python
 python3 --version
 pip3 --version
 ```
-## 5. 🧪 Setting Up a Virtual Environment
+## 5.  Setting Up a Virtual Environment
 
-**🔹 Step 1: Create a Virtual Environment**
+**Step 1: Create a Virtual Environment**
 ```bash
 python -m venv venv
 ```
@@ -171,7 +169,7 @@ myproject/
 
 You can rename venv to anything, but venv is a common convention.
 
-**🔹 Step 2: Activate the Environment**
+**Step 2: Activate the Environment**
 
 **Windows:**
 ```bash
@@ -190,7 +188,7 @@ Once activated, your terminal prompt will change to show the name of the virtual
 ```
 This indicates that you are now working within the venv virtual environment. The (venv) part shows that the virtual environment is active.
 
-**🔹 Step 3: Deactivate the Environment**
+**Step 3: Deactivate the Environment**
 
 To leave the virtual environment:
 
@@ -200,7 +198,7 @@ deactivate
 
 
 
-## 6. 🧭 Best Practices
+## 6.  Best Practices
 
  **Create one virtual environment per project**
 Keep dependencies isolated to prevent conflicts and ensure reproducibility.
@@ -220,7 +218,7 @@ Clean up environments for old or completed projects to save disk space.
  **Use `deactivate` when switching contexts**
 Don’t forget to deactivate the current environment before activating another.
 
-## 7.❗ Common Issues & Troubleshooting
+## 7. Common Issues & Troubleshooting
 
 | Issue                             | Solution                                                                 |
 |----------------------------------|--------------------------------------------------------------------------|
@@ -238,14 +236,14 @@ Don’t forget to deactivate the current environment before activating another.
 
 
 
-# 📧 Contact 
+# Contact 
 
 | Name       | Email Address                |
 |------------|------------------------------|
 | Anitha     |anitha.annem.snaatak@mygurukulam.co|
 
 
-# 8. 📚 References
+# 8. References
 
 | Link                                                         | Description                              |
 |--------------------------------------------------------------|------------------------------------------|
