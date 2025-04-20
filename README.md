@@ -11,15 +11,23 @@
 
 
 # Table of Contents
-   -[Introduction](#Introduction)
-   -[ Purpose](#-purpose)
-   -[ Prerequisites](#️-prerequisites)
-   -[ Definitions](#-definitions)
-   -[ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
-   -[ Troubleshooting](#-troubleshooting)
-   -[conclusion](#conclusion)
-   -[ Contact Information](#-contact-information)
-   -[ References](#-references)
+   [Introduction](#Introduction)
+
+   [ Purpose](#-purpose
+
+   [ Prerequisites](#️-prerequisites)
+
+   [ Definitions](#-definitions)
+
+   [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
+
+   [ Troubleshooting](#-troubleshooting)
+
+   [conclusion](#conclusion)
+
+   [ Contact Information](#-contact-information)
+
+   [ References](#-references)
 
 
 # **Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
