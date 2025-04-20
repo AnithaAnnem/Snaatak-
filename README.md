@@ -14,12 +14,12 @@
 
 #  Table of Contents
 - [Introduction](#Introduction)
-- [ What is Migration?](#-what-is-migration)
-- [ Why Migrate?](#-why-migrate)
-- [ Purpose of Migration](#-purpose-of-migration)
-- [ Prerequisites for Migration](#-prerequisites-for-migration)
+- [ What is Migration?](#what-is-migration)
+- [ Why Migrate?](#why-migrate)
+- [ Purpose of Migration](#purpose-of-migration)
+- [ Prerequisites for Migration](#prerequisites-for-migration)
 - [Key Features of Migration Tools](#key-features-of-migration-tools)
-- [ Types of Migration](#️-types-of-migration)
+- [ Types of Migration](#️types-of-migration)
 - [conclusion](#conclusion) 
 - [ Contact ](#contact)
 - [References](#References)
