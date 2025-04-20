@@ -13,21 +13,23 @@
 # Table of Contents
   1. [Introduction](#Introduction)
 
-  2. [ Purpose](#-purpose)
+  2. [ Purpose](#purpose)
+  3. [What is SOP ?](#what-is-sop?)
+  4. [Why SOP ?](#why-sop?)
 
-  3. [ Prerequisites](#️-prerequisites)
+  5. [ Prerequisites](#️prerequisites)
 
-  4. [ Definitions](#-definitions)
+  6. [ Definitions](#definitions)
 
-  5. [ Service Management Commands with systemctl](#-service-management-commands-with-systemctl)
+  7. [ Service Management Commands with systemctl](#service-management-commands-with-systemctl)
 
-  6. [ Troubleshooting](#troubleshooting)
+  8. [ Troubleshooting](#troubleshooting)
 
-  7.  [conclusion](#conclusion)
+  9.  [conclusion](#conclusion)
 
-  8. [ Contact Information](#-contact-information)
+  10. [ Contact Information](#contact-information)
 
-  9. [ References](#-references)
+  11. [ References](#references)
 
 
 # **Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
