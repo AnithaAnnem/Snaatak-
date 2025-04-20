@@ -9,22 +9,22 @@
 
 # Table of Contents
 1. [Introduction](#1-Introduction)
-2. [ What is a Virtual Environment?](#2what-is-a-virtual-environment)
-3. [ Why Use a Virtual Environment?](#3why-use-a-virtual-environment)
-4. [ Purpose](#4purpose)
-5. [ Prerequisites](#5prerequisites-with-system-requirements)
-6. [ Setting Up a Virtual Environment](#6setting-up-a-virtual-environment)
-7. [ Best Practices](#7best-practices)
-8. [ Common Issues & Troubleshooting](#8common-issues--troubleshooting)
-9. [conclusion](#9conclusion)
-10. [Contact](#10Contact)
+2. [ What is a Virtual Environment?](#2-what-is-a-virtual-environment)
+3. [ Why Use a Virtual Environment?](#3-why-use-a-virtual-environment)
+4. [ Purpose](#4-purpose)
+5. [ Prerequisites](#5-prerequisites-with-system-requirements)
+6. [ Setting Up a Virtual Environment](#6-setting-up-a-virtual-environment)
+7. [ Best Practices](#7-best-practices)
+8. [ Common Issues & Troubleshooting](#8-common-issues--troubleshooting)
+9. [conclusion](#9-conclusion)
+10. [Contact](#10-Contact)
 11. [ References](#11-references)
 
 
 # 1. Introduction
 
 
-# 2.  What is a Virtual Environment?
+# 2. What is a Virtual Environment?
 
 A virtual environment is a self-contained directory that contains a Python interpreter and all required libraries for a specific project. It helps avoid global package installation and conflicts between projects.
 
@@ -64,7 +64,7 @@ The purpose of a Python virtual environment is to:
 
 
 
-## 5.  Prerequisites (with System Requirements)
+## 5. Prerequisites (with System Requirements)
 
 Before setting up a Python virtual environment, make sure your system meets the following requirements:
 
