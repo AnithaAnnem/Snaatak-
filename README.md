@@ -8,7 +8,7 @@
 
 
 # Table of Contents
-1. [Introduction](#1Introduction)
+1. [Introduction](#1-Introduction)
 2. [ What is a Virtual Environment?](#2what-is-a-virtual-environment)
 3. [ Why Use a Virtual Environment?](#3why-use-a-virtual-environment)
 4. [ Purpose](#4purpose)
