@@ -22,6 +22,7 @@
 
 
 # 1. Introduction
+This document covers what is virtual environment and why we are using and showing how to setup a virtual environment using python and some best practices 
 
 
 # 2. What is a Virtual Environment?
