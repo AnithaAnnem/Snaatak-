@@ -7,9 +7,10 @@
 |----------|---------|---------------|-----------------|
 |**April 15** | v.1.0 | Initial Draft | Anitha Annem |
 |**April 19** | v.1.1 | Updated sop_services.md | Anitha Annem |
+|**April 20** | v.1.2 | Updated sop_services.md | Anitha Annem |
 
 
-## 📖 Table of Contents
+##  Table of Contents
 1. [Introduction](#Introduction)
 2. [ Purpose](#-purpose)
 3. [ Prerequisites](#️-prerequisites)
@@ -23,9 +24,7 @@
 
 # Introduction
 
-A Standard Operating Procedure (SOP) is a set of step-by-step instructions compiled by an organization to help workers carry out routine operations. SOPs are essential in ensuring that tasks are performed consistently, efficiently, and safely across an organization. They provide clear guidelines on how to handle specific processes, ensuring that the same procedures are followed by all team members.
-
-  
+In this document we are covering the Standard Operating Procedure for starting,enabling,disabling,and checking the status of the services by using systemctl system command.
  
 
 
