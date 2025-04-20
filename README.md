@@ -8,7 +8,7 @@
 |**April 16** | v.1.0 | Initial Draft | Anitha Annem |
 |**April 19** | v.1.1 | Updated installation_guide.md | Anitha Annem |
 
-# Table of Contents 📑
+# Table of Contents 
 
 1. [Purpose of Java](#purpose-of-java)
 2. [Key Uses of Java](#key-uses-of-java)
@@ -72,7 +72,7 @@ Before installing Java, ensure that you have the following:
 
 
 
-# Installing Java on macOS 🍎
+# Installing Java on macOS 
 
  ### 1. Check if Java is Already Installed
 
@@ -114,7 +114,9 @@ This installs Homebrew, a package manager that makes it easier to install softwa
 brew install openjdk@17
 ```
 
-## 3. After installation is complete, you need to configure Java in your shell profile. Add the following lines to your `~/.zshrc` (or `~/.bash_profile` if you're using Bash) to set the Java environment variables:
+## 3. After installation is complete, you need to configure Java in your shell profile. 
+
+Add the following lines to your `~/.zshrc` (or `~/.bash_profile` if you're using Bash) to set the Java environment variables:
 
 ```bash
 export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
@@ -131,19 +133,15 @@ source ~/.zshrc
 
 
 
+# Installing Java on Linux 
 
-
-
-
-# Installing Java on Linux 🐧
-
-### 1. Download JDK (Linux) 📥
+### 1. Download JDK (Linux) 
 
 For most Linux distributions, you can install Java directly using the system's package manager.
 
 Alternatively, you can download the JDK manually from the official [Oracle JDK Download](https://www.oracle.com/java/technologies/javase-jdk-downloads.html) page.
 
-### 2. Install JDK on Linux 🔧
+### 2. Install JDK on Linux 
 
 #### For Ubuntu/Debian:
 
@@ -195,7 +193,7 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
    source ~/.bashrc   # Or `source ~/.bash_profile` depending on your shell
    ```
 
-# Troubleshooting Java Installation Issues ⚠️
+# Troubleshooting Java Installation Issues 
 
 | **Issue** | **Possible Causes** | **Solutions** |
 |-----------|---------------------|--------------|
@@ -229,7 +227,7 @@ Java is a powerful, platform-independent programming language that continues to 
 | Anitha     |anitha.annem.snaatak@mygurukulam.co|
 
 
-# References 📚
+# References 
 
 | **Resource**                        | **Description**                                                                                     | **Link**                                                                                          |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
