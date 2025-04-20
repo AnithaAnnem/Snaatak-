@@ -15,11 +15,11 @@
 #  Table of Contents
 
 1. [Introduction](#Introduction)
-2. [What is React?](#-what-is-react)
-3. [Purpose of React](#-purpose-of-react)
+2. [What is React?](#what-is-react)
+3. [Purpose of React](#purpose-of-react)
 4. [Why Use React?](#why-use-react)
-5. [Prerequisites](#-prerequisites)
-6. [Key Features of React](#-key-features-of-react)
+5. [Prerequisites](#prerequisites)
+6. [Key Features of React](#key-features-of-react)
    - [JSX (JavaScript XML)](#51-jsx-javascript-xml)
    - [Component-Based Architecture](#52-component-based-architecture)
    - [Virtual DOM](#53-virtual-dom)
@@ -27,8 +27,8 @@
    - [React Hooks](#55-react-hooks)
    - [React Router in React Application](#56-react-router-in-react-application)
 7. [conclusion](#conclusion)
-8. [Contact Information](#-contact-information)
-9. [References](#-references)
+8. [Contact Information](#contact-information)
+9. [References](#references)
 
  
 
