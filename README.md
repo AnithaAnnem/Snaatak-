@@ -9,16 +9,16 @@
 
 # Table of Contents
 1. [Introduction](#Introduction)
-2. [ What is a Virtual Environment?](#1--what-is-a-virtual-environment)
-3. [ Why Use a Virtual Environment?](#2--why-use-a-virtual-environment)
-4. [ Purpose](#3--purpose)
-5. [ Prerequisites](#4--prerequisites-with-system-requirements)
-6. [ Setting Up a Virtual Environment](#5--setting-up-a-virtual-environment)
-7. [ Best Practices](#7--best-practices)
-8. [ Common Issues & Troubleshooting](#8-common-issues--troubleshooting)
+2. [ What is a Virtual Environment?](#1what-is-a-virtual-environment)
+3. [ Why Use a Virtual Environment?](#2why-use-a-virtual-environment)
+4. [ Purpose](#3purpose)
+5. [ Prerequisites](#4prerequisites-with-system-requirements)
+6. [ Setting Up a Virtual Environment](#5setting-up-a-virtual-environment)
+7. [ Best Practices](#7best-practices)
+8. [ Common Issues & Troubleshooting](#8common-issues--troubleshooting)
 9. [conclusion](#conclusion)
 10. [Contact](#Contact)
-11. [ References](#9--references)
+11. [ References](#9references)
 
 
 # Introduction
