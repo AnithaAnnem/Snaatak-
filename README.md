@@ -17,7 +17,7 @@
 1. [Introduction](#Introduction)
 2. [What is React?](#-what-is-react)
 3. [Purpose of React](#-purpose-of-react)
-4. [Why Use React?](#-why-use-react)
+4. [Why Use React?](#why-use-react)
 5. [Prerequisites](#-prerequisites)
 6. [Key Features of React](#-key-features-of-react)
    - [JSX (JavaScript XML)](#51-jsx-javascript-xml)
