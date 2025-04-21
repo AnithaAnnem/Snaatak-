@@ -13,6 +13,7 @@
 
 
 ##  Table of Contents
+- [Introduction](#introduction)
 - [What is an Ansible Playbook?](#what-is-an-ansible-playbook)
 - [What is a CD (Continuous Deployment) Workflow?](#what-is-a-cd-continuous-deployment-workflow)
 - [CD Workflow Using Ansible Playbook – Step-by-Step](#cd-workflow-using-ansible-playbook--step-by-step)
@@ -21,9 +22,13 @@
   - [ Deploying the Application to Staging](#deploying-the-application-to-staging)
   - [ Testing the Staging Environment](#testing-the-staging-environment)
   - [ Approval and Production Deployment](#approval-and-production-deployment)
+- [Using tags with playbook](#using-tags-with-playbook)
 - [ Contact Information](#-contact-information)
 - [ References](#-references)
 
+# Introduction 
+
+This document provides an overview of setting up a Continuous Deployment (CD) Workflow using Ansible Playbooks.The playbooks also utilize tags to selectively run specific tasks, providing flexibility in managing the deployment pipeline. 
 
 
 # **What is an Ansible Playbook?**  
@@ -176,6 +181,49 @@ If the approval is automatic, the playbook can trigger production deployment:
     name: nginx
     state: restarted
  ```
+
+
+
+# Using tags with playbook
+
+
+
+```yaml
+---
+- name: CD Workflow Playbook
+  hosts: web_servers
+  become: yes
+
+  tasks:
+
+    - name: Provision servers
+      include_role:
+        name: provision
+      tags: provision
+
+    - name: Configure system settings
+      include_role:
+        name: configure
+      tags: configure
+
+    - name: Deploy application
+      include_role:
+        name: deploy
+      tags: deploy
+
+    - name: Run post-deployment verification
+      include_role:
+        name: post_deploy
+      tags: post-deploy
+
+    - name: Rollback on failure
+      include_role:
+        name: rollback
+      when: deploy_failed is defined and deploy_failed
+      tags: rollback
+  ```
+
+
 
 #  Contact Information
 
