@@ -6,7 +6,7 @@
 |----------|---------|---------------|-----------------|
 |**April 18** | v.1.0 | Initial Draft | Anitha Annem |
 |**April 19** | v.1.1 | Updated cd.md | Anitha Annem |
-|**April 20** | v.1.2 | Updated cd.md | Anitha Annem |
+|**April 21** | v.1.2 | Updated cd.md | Anitha Annem |
 
 
 ## Continuous Deployment (CD) Workflow with Ansible Playbook 
