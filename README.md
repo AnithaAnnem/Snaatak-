@@ -12,17 +12,18 @@
 
 # Table of Contents 
 
-1. [Purpose of Java](#purpose-of-java)
-2. [Key Uses of Java](#key-uses-of-java)
-3. [Java Development Kit (JDK)](#java-development-kit-jdk) 
+1. [Introduction](#introduction)
+2. [What is Java/](#what-is-java)
+3. [Key Uses of Java](#key-uses-of-java)
 4. [Prerequisites](#prerequisites)
-5. [Checking Existing Java Installation ](#checking-existing-java-installation-)
-6. [Installing Java on macOS ](#installing-java-on-macos-)
-7. [Installing Java on Linux ](#installing-java-on-linux-)
-8. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
-9. [conclusion](#conclusion)
-10. [Contact Information](#contact-information)
-11. [References ](#references-)
+5. [Java Development Kit (JDK)](#java-development-kit-jdk)  
+6. [Checking Existing Java Installation ](#checking-existing-java-installation-)
+7. [Installing Java on macOS ](#installing-java-on-macos-)
+8. [Installing Java on Linux ](#installing-java-on-linux-)
+9. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
+10. [conclusion](#conclusion)
+11. [Contact Information](#contact-information)
+12. [References ](#references-)
 
 
 
@@ -49,9 +50,6 @@ Java is the primary language for developing Android applications, making it esse
 
 With JavaFX and Swing, Java allows developers to create powerful desktop applications with rich user interfaces.
 
-**Embedded Systems**
-
-Java is used in embedded systems such as IoT devices, smart cards, and appliances, thanks to its portability and scalability.
 
 ---
 
