@@ -189,7 +189,7 @@ If the approval is automatic, the playbook can trigger production deployment:
 
 
 ```yaml
----
+
 - name: CD Workflow Playbook
   hosts: web_servers
   become: yes
