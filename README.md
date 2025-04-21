@@ -6,21 +6,23 @@
 |----------|---------|---------------|-----------------|
 |**April 18** | v.1.0 | Initial Draft | Anitha Annem |
 |**April 19** | v.1.1 | Updated cd.md | Anitha Annem |
+|**April 20** | v.1.2 | Updated cd.md | Anitha Annem |
 
-## Continuous Deployment (CD) Workflow with Ansible Playbook 🚀
+
+## Continuous Deployment (CD) Workflow with Ansible Playbook 
 
 
-## 📑 Table of Contents
+##  Table of Contents
 - [What is an Ansible Playbook?](#what-is-an-ansible-playbook)
 - [What is a CD (Continuous Deployment) Workflow?](#what-is-a-cd-continuous-deployment-workflow)
 - [CD Workflow Using Ansible Playbook – Step-by-Step](#cd-workflow-using-ansible-playbook--step-by-step)
-  - [📂 Code Checkout and Branching](#code-checkout-and-branching)
-  - [📦 Build and Package the Application](#build-and-package-the-application)
-  - [🚚 Deploying the Application to Staging](#deploying-the-application-to-staging)
-  - [🧪 Testing the Staging Environment](#testing-the-staging-environment)
-  - [✅ Approval and Production Deployment](#approval-and-production-deployment)
-- [📧 Contact Information](#-contact-information)
-- [📚 References](#-references)
+  - [ Code Checkout and Branching](#code-checkout-and-branching)
+  - [ Build and Package the Application](#build-and-package-the-application)
+  - [ Deploying the Application to Staging](#deploying-the-application-to-staging)
+  - [ Testing the Staging Environment](#testing-the-staging-environment)
+  - [ Approval and Production Deployment](#approval-and-production-deployment)
+- [ Contact Information](#-contact-information)
+- [ References](#-references)
 
 
 
@@ -175,14 +177,14 @@ If the approval is automatic, the playbook can trigger production deployment:
     state: restarted
  ```
 
-## 📧 Contact Information
+#  Contact Information
 
 | Name       | Email Address                |
 |------------|------------------------------|
 | Anitha     |anitha.annem.snaatak@mygurukulam.co|
 
 
-## 📚 References
+#  References
 
 | Link | Description |
 |------|-------------|
