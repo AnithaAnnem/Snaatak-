@@ -26,7 +26,6 @@
    - [Virtual DOM](#53-virtual-dom)
    - [One-Way Data Binding](#54-one-way-data-binding)
    - [React Hooks](#55-react-hooks)
-   - [React Router in React Application](#56-react-router-in-react-application)
 7. [conclusion](#conclusion)
 8. [Contact Information](#contact-information)
 9. [References](#references)
@@ -184,34 +183,6 @@ In a typical React application, the **parent component** holds the state and pas
 
 React Router enables client-side routing in React apps, allowing you to create multiple views/pages without reloading the page. This is essential for building single-page applications (SPAs).
 
-## Example
-
-Here's a basic usage example of React Router in your application:
-
-```jsx
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import About from './About';
-
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </Router>
-  );
-}
-```
-
-export default App;
-
-In this example:
-
-  - The Router component wraps your entire application, enabling routing.
-
-  - The Routes component holds all your <Route /> definitions.
-
-  - The path specifies the URL path, and the element is the component that will render when the path matches.
 
 # conclusion
 
