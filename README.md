@@ -22,7 +22,7 @@
 8. [Installing Java on Linux ](#installing-java-on-linux-)
 9. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
 10. [conclusion](#conclusion)
-11 [Contact Information](#contact-information)
+11. [Contact Information](#contact-information)
 12. [References ](#references-)
 
 
