@@ -52,7 +52,6 @@ This document covers the introduction to the React Js by
 
 React focuses on:
 
--  **Component-based architecture** – Build encapsulated components that manage their own state and compose them to make complex UIs.
 -  **Declarative UI development** – Describe what the UI should look like for different application states, and React takes care of updating the DOM.
 -  **Fast updates using a virtual DOM** – React uses a virtual representation of the DOM to minimize direct manipulation and boost performance.
 -  **Scalability across web and mobile** – Use React for web apps and React Native for building native mobile apps with shared logic.
