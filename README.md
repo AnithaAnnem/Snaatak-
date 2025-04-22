@@ -83,9 +83,13 @@ The main goal of migration is to implement change in a way that improves busines
    Performance refers to how fast, responsive, and efficient a system is when processing tasks or data. Scalability is the system's ability to handle increasing volumes of work, such as more users, larger datasets, or growing traffic, without a degradation in performance.
 
 **Why is this important?** 
-- Faster Operations: A slow system can hinder productivity and frustrate users, whether internal teams or external customers. By improving performance, processes become quicker, more responsive, and more efficient.
 
-- Growth: As businesses grow, the demands on the system also increase. The ability to scale ensures that the system can handle more customers, transactions, or data without crashing or slowing down. This is especially important when considering seasonal spikes (e.g., retail systems during Black Friday) or long-term growth (e.g., more users as your business expands).
+- **Faster Operations**
+  
+ A slow system can hinder productivity and frustrate users, whether internal teams or external customers. By improving performance, processes become quicker, more responsive, and more efficient.
+
+- **Growth**
+ As businesses grow, the demands on the system also increase. The ability to scale ensures that the system can handle more customers, transactions, or data without crashing or slowing down. This is especially important when considering seasonal spikes (e.g., retail systems during Black Friday) or long-term growth (e.g., more users as your business expands).
 
 -  **Cost Efficiency**  
 Cost efficiency refers to reducing the total cost of ownership (TCO) by making smarter use of resources and minimizing unnecessary expenses.
