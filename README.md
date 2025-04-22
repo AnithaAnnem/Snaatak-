@@ -66,7 +66,6 @@ React helps by:
 -  **Simplifying UI creation through component reuse** – Build once, use anywhere.
 -  **Ensuring better performance using the Virtual DOM** – Efficiently update only the parts of the UI that change.
 -  **Offering predictable data flow via one-way binding** – Makes debugging and understanding app behavior easier.
--  **Supporting maintainability and scalability of large web apps** – Encourages modular, clean architecture.
 -  **Enabling cross-platform development with React Native** – Use the same core concepts to build mobile apps.
 
 React helps teams build applications that are **fast**, **interactive**, and **easy to manage**.
@@ -79,8 +78,6 @@ React is a top choice for building modern web applications, and here’s why man
 -  **Fast rendering via the Virtual DOM** – Minimizes real DOM updates for improved performance.
 -  **Reusable components** – Encourages modular design and reduces code duplication.
 -  **Unidirectional data flow** – Makes data changes predictable and easier to debug.
--  **Robust developer tools & community support** – Tools like React DevTools and a massive ecosystem of packages.
--  **Cross-platform mobile development with React Native** – Build native apps using the same core principles.
 
 
 React combines power, flexibility, and a supportive community to help you build **scalable, maintainable, and high-performance apps**.
