@@ -175,9 +175,6 @@ In a typical React application, the **parent component** holds the state and pas
   const [count, setCount] = useState(0);
   ```
 
-# 5.6 React Router in React Application
-
-React Router enables client-side routing in React apps, allowing you to create multiple views/pages without reloading the page. This is essential for building single-page applications (SPAs).
 
 
 # conclusion
