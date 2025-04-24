@@ -3,11 +3,12 @@
 ![image](https://github.com/user-attachments/assets/57b80e28-7839-41e6-a2b7-a946fc02966c)
 
 
-|**Date**| **Version**| **Description**| **Changed By** |
-|----------|---------|---------------|-----------------|
-|**April 16** | v.1.0 | Initial Draft | Anitha Annem |
-|**April 19** | v.1.1 | Updated installation_guide.md | Anitha Annem |
-|**April 20** | v.1.2 | Updated installation_guide.md | Anitha Annem |
+| Date       | Version | Description              | Changed By             | Pre-Reviewer        | L0               | L1              | L2               |
+|------------|---------|--------------------------|-------------------------|---------------------|------------------|------------------|------------------|
+| April 17   | v1.0    | Initial Draft            | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
+| April 19   | v1.1    | Updated installation_guide.md | Anitha Annem   | Priyanshu                 | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
+| April 20   | v1.2    | Updated installation_guide.md | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
+| April 24   | v1.3    | Updated installation_guide.md | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
 
 
 # Table of Contents 
