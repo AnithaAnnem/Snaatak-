@@ -69,11 +69,11 @@ The purpose of a Python virtual environment is to:
 | **1** | **Create a Virtual Environment**           | `python -m venv venv`                                                              |
 |       | This creates a folder named `venv/`.       |                                                                                    |
 |       | **Example Directory Structure:**           | ```                                                                                |
-|       |                                            | myproject/                                                                         |
-|       |                                            | ├── venv/                  # Virtual environment folder                             |
-|       |                                            | ├── requirements.txt       # Dependencies list                                     |
-|       |                                            | └── app.py                 # Main Python script                                    |
-|       |                                            | ```                                                                                |
+|       |                                             myproject/                                                                         |
+|       |                                             ├── venv/                  # Virtual environment folder                             |
+|       |                                             ├── requirements.txt       # Dependencies list                                     |
+|       |                                             └── app.py                 # Main Python script                                    |
+|       |                                             ```                                                                                |
 |       | You can rename `venv/`, but it's standard. |                                                                                    |
 | **2** | **Activate the Environment (Windows)**     | `venv\Scripts\activate`                                                             |
 |       | **Activate the Environment (macOS/Linux)** | `source venv/bin/activate`                                                          |
