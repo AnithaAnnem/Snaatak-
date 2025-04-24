@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/b66a9e29-b167-4e32-bd6e-b33c8e8ab444)
 
 | Date       | Version | Description              | Changed By             | Pre-Reviewer        | L0               | L1              | L2               |
 |------------|---------|--------------------------|-------------------------|---------------------|------------------|------------------|------------------|
