@@ -177,7 +177,7 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
 | **JDK Version Mismatch**  | An older version of Java might be installed. | - Download the latest version of the JDK from the [Oracle JDK website](https://www.oracle.com/java/technologies/javase-jdk-downloads.html).<br>- If using an older version, uninstall it and install the latest version. |
 | **Java Not Running After Installation (Linux)**  | Incorrect `JAVA_HOME` path or `java` command location. | - Check the `JAVA_HOME` path to ensure it points to the correct JDK directory.<br>- Verify the location of `java` with the command: `which java` and ensure it's the correct version. |
 | **Unable to Download JDK**  | Network issues, or Oracle website is down. | - Check your internet connection.<br>- Try downloading the JDK from a different network or use an alternative mirror for JDK downloads. |
-| **Incompatible JDK Version** ⚠ | JDK version incompatible with your project requirements. | - Ensure the version of JDK you're installing matches the version needed for your project (e.g., Java 8 vs. Java 11).<br>- If you're working with legacy applications, consider installing Java 8 (JDK 1.8). |
+| **Incompatible JDK Version**  | JDK version incompatible with your project requirements. | - Ensure the version of JDK you're installing matches the version needed for your project (e.g., Java 8 vs. Java 11).<br>- If you're working with legacy applications, consider installing Java 8 (JDK 1.8). |
 
 
 # Conclusion
