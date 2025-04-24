@@ -64,23 +64,24 @@ The purpose of a Python virtual environment is to:
 
 # 5. Setting Up a Virtual Environment
 
-| Step | Description                                | Command / Example                                                                 |
-|------|--------------------------------------------|------------------------------------------------------------------------------------|
+| Step  | Description                                | Command / Example                                                                 |
+|-------|--------------------------------------------|------------------------------------------------------------------------------------|
 | **1** | **Create a Virtual Environment**           | `python -m venv venv`                                                              |
-|      | Creates a folder named `venv/`              |                                                                                    |
-|      | **Example Directory Structure**             | ```                                                                                
-|      |                                            | myproject/                                                                         |
-|      |                                            | ├── venv/                  # Virtual environment folder                             |
-|      |                                            | ├── requirements.txt       # Dependencies file                                     |
-|      |                                            | └── app.py                 # Main Python script                                     |
-|      |                                            | ```                                                                                 |
-|      | You can rename `venv/`, but it's standard. |                                                                                    |
+|       | This creates a folder named `venv/`.       |                                                                                    |
+|       | **Example Directory Structure:**           | ```                                                                                |
+|       |                                            | myproject/                                                                         |
+|       |                                            | ├── venv/                  # Virtual environment folder                             |
+|       |                                            | ├── requirements.txt       # Dependencies list                                     |
+|       |                                            | └── app.py                 # Main Python script                                    |
+|       |                                            | ```                                                                                |
+|       | You can rename `venv/`, but it's standard. |                                                                                    |
 | **2** | **Activate the Environment (Windows)**     | `venv\Scripts\activate`                                                             |
-|      | **Activate the Environment (macOS/Linux)** | `source venv/bin/activate`                                                          |
-|      | **Example Terminal After Activation**      | `(venv) user@machine:~/myproject$`                                                 |
-|      | Indicates the environment is now active.   |                                                                                    |
+|       | **Activate the Environment (macOS/Linux)** | `source venv/bin/activate`                                                          |
+|       | **Example Terminal Prompt:**               | `(venv) user@machine:~/myproject$`                                                 |
+|       | Shows you're inside the virtual environment.|                                                                                   |
 | **3** | **Deactivate the Environment**             | `deactivate`                                                                       |
-|      | Restores the global/system environment.    |                                                                                    |
+|       | Returns you to the system Python environment. |                                                                                   |
+                                                                       |
 
 
 
