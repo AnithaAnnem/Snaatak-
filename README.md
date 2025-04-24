@@ -20,7 +20,7 @@
   8. [ References](#references)
 
 
-#  SOP for  Managing Services on Ubuntu with systemct
+#  SOP for  Managing Services On Ubuntu With systemctl
 
 # Introduction
 
