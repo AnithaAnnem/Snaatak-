@@ -149,7 +149,7 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
    sudo dnf install java-11-openjdk
    ```
 
-### 3. Set `JAVA_HOME` and `PATH` Environment Variables (Linux) 🛠️
+### 3. Set `JAVA_HOME` and `PATH` Environment Variables (Linux) 
 
 1. Open **Terminal**.
 
