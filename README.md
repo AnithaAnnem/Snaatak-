@@ -15,12 +15,12 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Installing Java on macOS ](#installing-java-on-macos-)
-4. [Installing Java on Linux ](#installing-java-on-linux-)
-5. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
+3. [Installing Java on macOS ](#installing-java-on-macos)
+4. [Installing Java on Linux ](#installing-java-on-linux)
+5. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues)
 6. [Conclusion](#conclusion)
 7. [Contact Information](#contact-information)
-8. [References ](#references-)
+8. [References ](#references)
 
 
 
