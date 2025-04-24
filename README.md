@@ -100,8 +100,7 @@ https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu_scrum16/commo
 
 # 7. Conclusion
 
- virtualenv is an invaluable tool for Python development, providing a simple yet effective way to manage project-specific dependencies. By isolating each project into its own virtual environment, you can avoid conflicts between different package versions and ensure that each project remains reproducible and portable. This not only helps with version control but also streamlines collaboration and deployment.
-
+ virtualenv is an invaluable tool for Python development, providing a simple yet effective way to manage project-specific dependencies. By isolating each project into its own virtual environment, you can avoid conflicts between different package versions and ensure that each project remains reproducible and portable.
 
 
 
