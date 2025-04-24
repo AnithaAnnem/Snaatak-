@@ -62,18 +62,18 @@ The purpose of a Python virtual environment is to:
 - Simplify development and deployment.
 
 
-# 5. Setting Up a Virtual Environment
+## 5. Setting Up a Virtual Environment
 
 | Step  | Description                                | Command / Example                                                                 |
 |-------|--------------------------------------------|------------------------------------------------------------------------------------|
 | **1** | **Create a Virtual Environment**           | `python -m venv venv`                                                              |
 |       | This creates a folder named `venv/`.       |                                                                                    |
-|       | **Example Directory Structure:**           | `                                                                                |
+|       | **Example Directory Structure:**           | ```                                                                                |
 |       |                                            | myproject/                                                                         |
 |       |                                            | ├── venv/                  # Virtual environment folder                             |
 |       |                                            | ├── requirements.txt       # Dependencies list                                     |
 |       |                                            | └── app.py                 # Main Python script                                    |
-|       |                                            | `                                                                                |
+|       |                                            | ```                                                                                |
 |       | You can rename `venv/`, but it's standard. |                                                                                    |
 | **2** | **Activate the Environment (Windows)**     | `venv\Scripts\activate`                                                             |
 |       | **Activate the Environment (macOS/Linux)** | `source venv/bin/activate`                                                          |
@@ -81,6 +81,7 @@ The purpose of a Python virtual environment is to:
 |       | Shows you're inside the virtual environment.|                                                                                   |
 | **3** | **Deactivate the Environment**             | `deactivate`                                                                       |
 |       | Returns you to the system Python environment. |                                                                                   |
+                                                        |
                                                                        |
 
 
