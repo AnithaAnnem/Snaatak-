@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/394cd790-db18-404a-93b7-7885f63b727d)
+![Uploading image.png…]()
 
 | Date       | Version | Description              | Changed By             | Pre-Reviewer        | L0               | L1              | L2               |
 |------------|---------|--------------------------|-------------------------|---------------------|------------------|------------------|------------------|
