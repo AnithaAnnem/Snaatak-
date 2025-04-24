@@ -1,13 +1,15 @@
 
+
  ![image](https://github.com/user-attachments/assets/f8d1e015-f9cb-4c1e-933e-22e6262b0c69)
 
 
-| Date       | Version | Description           | Changed By             | L0     | L1       | L2     |
-|------------|---------|-----------------------|-------------------------|--------|----------|--------|
-| April 15   | v1.0    | Initial Draft         | Anitha Annem   | Khushi Malhothra| Mukul Joshi  | Piyush Upadhyay |
-| April 19   | v1.1    | Updated sop_services.md    | Anitha Annem   | Khushi Malhothra| Mukul Joshi | Piyush Upadhyay|
-| April 20   | v1.2    | Updated sop_services.md    | Anitha Annem   | Khushi Malhothra| Mukul Joshi | Piyush Upadhyay|
-| April 24   | v1.3    | Updated sop_services.md    | Anitha Annem   | Khushi Malhothra| Mukul Joshi| Piyush Upadhyay|
+| Date       | Version | Description              | Changed By             | Pre-Reviewer        | L0               | L1              | L2               |
+|------------|---------|--------------------------|-------------------------|---------------------|------------------|------------------|------------------|
+| April 16   | v1.0    | Initial Draft            | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
+| April 19   | v1.1    | Updated sop_services.md | Anitha Annem   | Priyanshu                 | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
+| April 20   | v1.2    | Updated sop_services.md | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
+| April 24   | v1.3    | Updated sop_services.md | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
+
 
 # Table of Contents
   1. [Introduction](#Introduction)
