@@ -14,44 +14,18 @@
 # Table of Contents 
 
 1. [Introduction](#introduction)
-2. [What is Java?](#what-is-java)
-3. [Why java?](#why-java)
-4. [Prerequisites](#prerequisites)
-5. [Java Development Kit (JDK)](#java-development-kit-jdk)  
-6. [Checking Existing Java Installation ](#checking-existing-java-installation-)
-7. [Installing Java on macOS ](#installing-java-on-macos-)
-8. [Installing Java on Linux ](#installing-java-on-linux-)
-9. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
-10. [conclusion](#conclusion)
-11. [Contact Information](#contact-information)
-12. [References ](#references-)
+2. [Prerequisites](#prerequisites)
+3. [Installing Java on macOS ](#installing-java-on-macos-)
+4. [Installing Java on Linux ](#installing-java-on-linux-)
+5. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues-)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#contact-information)
+8. [References ](#references-)
 
 
 
 # Introduction 
 This document covers the stp by step installation of the java in different operating systems and configurig environment variables
-
-
-
-# What is Java? 
-
-Java is a high level object oriented programming language(oops) one of the most popular and versatile programming languages, widely used for building cross-platform applications.
-
-
-
-# Why java?
-
-| **Feature**               | **Explanation**                                                                                  | **Benefits for Embedded Systems**                                                        |
-|---------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| **Portability**            | Java's "Write Once, Run Anywhere" principle through the Java Virtual Machine (JVM).              | Java applications can run on different hardware platforms without modification.             |
-| **Scalability**            | Java can run on both small embedded devices and more powerful systems.                           | Suitable for a wide range of embedded systems, from low-power IoT devices to more powerful appliances. |
-| **Cross-Platform Support** | Java can run on various platforms (Windows, Linux, macOS, embedded systems).                     | Allows embedded applications to run on different hardware and operating systems.            |
-| **Developer Productivity** | Java's syntax is clean, and there are powerful IDEs and tools (like Eclipse, IntelliJ).          | Increases development speed and efficiency, simplifying debugging, testing, and optimization. |
-| **Community Support**      | Java has a large community and many resources available for learning and troubleshooting.         | Extensive documentation, tutorials, and forums make it easier to find solutions to problems. |
-
-
-
-
 
 
 
@@ -68,10 +42,9 @@ Before installing Java, ensure that you have the following:
 
 
 
+## For more related to java follow this link 
 
-
-
-
+https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_scrum23/commonstack/applications/java/introduction/intro.md
 
 
 # Installing Java on macOS 
@@ -207,7 +180,7 @@ Alternatively, you can download the JDK manually from the official [Oracle JDK D
 | **Incompatible JDK Version** ⚠ | JDK version incompatible with your project requirements. | - Ensure the version of JDK you're installing matches the version needed for your project (e.g., Java 8 vs. Java 11).<br>- If you're working with legacy applications, consider installing Java 8 (JDK 1.8). |
 
 
-# conclusion
+# Conclusion
 
 Java is a powerful, platform-independent programming language that continues to play a crucial role in software development across various domains—ranging from web and mobile applications to desktop software and embedded systems.
 
