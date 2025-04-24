@@ -81,7 +81,9 @@ The purpose of a Python virtual environment is to:
 
 
 
+## For Prerequisites and Troubleshooting refer this link
 
+https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu_scrum16/commonstack/applications/python/virtualenv/sop.md
 
 
 # 6. Best Practices 
