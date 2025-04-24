@@ -2,56 +2,34 @@
  ![image](https://github.com/user-attachments/assets/f8d1e015-f9cb-4c1e-933e-22e6262b0c69)
 
 
-
-|**Date**| **Version**| **Description**| **Changed By** |
-|----------|---------|---------------|-----------------|
-|**April 15** | v.1.0 | Initial Draft | Anitha Annem |
-|**April 19** | v.1.1 | Updated sop_services.md | Anitha Annem |
-|**April 20** | v.1.2 | Updated sop_services.md | Anitha Annem |
-
+| Date       | Version | Description           | Changed By             | L0     | L1       | L2     |
+|------------|---------|-----------------------|-------------------------|--------|----------|--------|
+| April 15   | v1.0    | Initial Draft         | Anitha Annem   | Khushi Malhothra| Mukul Joshi  | Piyush Upadhyay |
+| April 19   | v1.1    | Updated sop_services.md    | Anitha Annem   | Khushi Malhothra| Mukul Joshi | Piyush Upadhyay|
+| April 20   | v1.2    | Updated sop_services.md    | Anitha Annem   | Khushi Malhothra| Mukul Joshi | Piyush Upadhyay|
+| April 24   | v1.3    | Updated sop_services.md    | Anitha Annem   | Khushi Malhothra| Mukul Joshi| Piyush Upadhyay|
 
 # Table of Contents
   1. [Introduction](#Introduction)
-  2.  [What is SOP](#what-is-sop) 
-  3.  [Why SOP](#why-sop)
-  4. [ Purpose](#purpose)
-  5. [ Prerequisites](#️prerequisites)
-  6. [ Definitions](#definitions)
-  7. [ Service Management Commands with systemctl](#service-management-commands-with-systemctl)
-  8. [ Troubleshooting](#troubleshooting)
-  9.  [conclusion](#conclusion)
-  10. [ Contact Information](#contact-information)
-  11. [ References](#references)
+  2. [ Purpose](#purpose)
+  3. [ Prerequisites](#️prerequisites)
+  4. [ Service Management Commands with systemctl](#service-management-commands-with-systemctl)
+  5. [ Troubleshooting](#troubleshooting)
+  6.  [Conclusion](#conclusion)
+  7. [ Contact Information](#contact-information)
+  8. [ References](#references)
 
 
-# **Standard Operating Procedure (SOP): Managing Services on Ubuntu with systemctl**
+# ** SOP for  Managing Services on Ubuntu with systemctl**
 
 # Introduction
 
 In this documentation The SOP provides a clear and consistent process for managing services on Ubuntu using the systemctl command. 
 
 
-# What is SOP 
-
-SOP stands for Standard Operating Procedure.
-It is a written document that gives clear, step-by-step instructions on how to perform a specific task or process.
-
-It's like a guide or manual that ensures things are done correctly, safely, and consistently every time.
-
-
-# Why SOP 
-
- - Ensures Consistency Across Operations
- - Improves Efficiency and Productivity
- - Enhances Safety and Reduces Risk
-
-
-
 # Purpose
 
 This SOP provides standardized procedures for managing services (start, stop, restart, enable, disable, check status) on Ubuntu OS.
-
-
 
 
 # Prerequisites
@@ -66,27 +44,6 @@ To ensure the successful management of the service on Ubuntu, the following prer
 | Sudo Privileges   | User must have sudo access to manage services                    |
 | Installed Services| The service (e.g., nginx, mysql) should be installed beforehand  |
 | Terminal Access   | Access via SSH or local terminal                                 |
-
-
-
-
-
-
-
-
-
-
-
-# Definitions
-
-
-
-| Term     | Description                                           |
-|----------|-------------------------------------------------------|
-| systemd  | The system and service manager used in Ubuntu         |
-| Service  | A background process (e.g., Apache, MySQL)            |
-
-
 
 
 
@@ -181,7 +138,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 | Changes not applied  | Use `systemctl daemon-reexec` or `systemctl daemon-reload`         |
 
 
-# conclusion 
+# Conclusion 
 
 This SOP provides a clear and consistent process for managing services on Ubuntu using the systemctl command. By following the outlined steps, users can efficiently start, stop, restart, enable, disable, and check the status of services, ensuring smooth operation of the system. The procedures promote consistency, improve productivity, and reduce the risk of errors during service management tasks.
 With proper prerequisites met and troubleshooting tips in place, this SOP serves as a reliable guide for both new and experienced users to maintain and manage services on Ubuntu systems effectively.
