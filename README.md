@@ -4,12 +4,24 @@
 ![image](https://github.com/user-attachments/assets/4702fe89-7a74-4585-98f4-ee2b51be1a34)
 
 
-| Date       | Version | Description              | Changed By     | Review Level                                                                 |  
-|------------|---------|--------------------------|----------------|------------------------------------------------------------------------------|
-| April 18   | v1.0    | Initial Draft            | Anitha Annem   | Pre-Reviewer: Priyanshu<br>L0: Khushi Malhothra<br>L1: Mukul Joshi<br>L2: Piyush Upadhyay |
-| April 19   | v1.1    | Updated documentation.md | Anitha Annem   | Pre-Reviewer: Priyanshu<br>L0: Aryan Gupta<br>L1: Tanvi Sharma<br>L2: Rohan Mehra |
-| April 20   | v1.2    | Updated documentation.md | Anitha Annem   | Pre-Reviewer: Priyanshu<br>L0: Sneha Verma<br>L1: Aakash Singh<br>L2: Neha Reddy |
-| April 24   | v1.3    | Updated documentation.md | Anitha Annem   | Pre-Reviewer: Priyanshu<br>L0: Rahul Sen<br>L1: Isha Kapoor<br>L2: Karan Patel |
+| Date       | Version | Description              | Changed By     | Reviewer Level | Reviewer Name       |
+|------------|---------|--------------------------|----------------|----------------|----------------------|
+| April 18   | v1.0    | Initial Draft            | Anitha Annem   | Pre-Reviewer   | Priyanshu            |
+|            |         |                          |                | L0             | Khushi Malhothra     |
+|            |         |                          |                | L1             | Mukul Joshi          |
+|            |         |                          |                | L2             | Piyush Upadhyay      |
+| April 19   | v1.1    | Updated documentation.md | Anitha Annem   | Pre-Reviewer   | Priyanshu            |
+|            |         |                          |                | L0             | Aryan Gupta          |
+|            |         |                          |                | L1             | Tanvi Sharma         |
+|            |         |                          |                | L2             | Rohan Mehra          |
+| April 20   | v1.2    | Updated documentation.md | Anitha Annem   | Pre-Reviewer   | Priyanshu            |
+|            |         |                          |                | L0             | Sneha Verma          |
+|            |         |                          |                | L1             | Aakash Singh         |
+|            |         |                          |                | L2             | Neha Reddy           |
+| April 24   | v1.3    | Updated documentation.md | Anitha Annem   | Pre-Reviewer   | Priyanshu            |
+|            |         |                          |                | L0             | Rahul Sen            |
+|            |         |                          |                | L1             | Isha Kapoor          |
+|            |         |                          |                | L2             | Karan Patel          |
 
 
 # React Documentation
