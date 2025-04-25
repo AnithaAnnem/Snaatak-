@@ -4,12 +4,12 @@
 ![image](https://github.com/user-attachments/assets/4702fe89-7a74-4585-98f4-ee2b51be1a34)
 
 
-| Date       | Version | Description              | Changed By             | Pre-Reviewer        | L0               | L1              | L2               |
-|------------|---------|--------------------------|-------------------------|---------------------|------------------|------------------|------------------|
-| April 18   | v1.0    | Initial Draft            | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
-| April 19   | v1.1    | Updated documentation.md | Anitha Annem   | Priyanshu                 | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
-| April 20   | v1.2    | Updated documentation.md | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
-| April 24   | v1.3    | Updated documentation.md | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
+| Date       | Version | Description              | Changed By     | Review Level                          | Pre-Reviewer | L0               | L1           | L2               |
+|------------|---------|--------------------------|----------------|----------------------------------------|--------------|------------------|--------------|------------------|
+| April 18   | v1.0    | Initial Draft            | Anitha Annem   | L0: Khushi Malhothra<br>L1: Mukul Joshi<br>L2: Piyush Upadhyay | Priyanshu     | Khushi Malhothra | Mukul Joshi | Piyush Upadhyay  |
+| April 19   | v1.1    | Updated documentation.md | Anitha Annem   | L0: Khushi Malhothra<br>L1: Mukul Joshi<br>L2: Piyush Upadhyay | Priyanshu     | Khushi Malhothra | Mukul Joshi | Piyush Upadhyay  |
+| April 20   | v1.2    | Updated documentation.md | Anitha Annem   | L0: Khushi Malhothra<br>L1: Mukul Joshi<br>L2: Piyush Upadhyay | Priyanshu     | Khushi Malhothra | Mukul Joshi | Piyush Upadhyay  |
+| April 24   | v1.3    | Updated documentation.md | Anitha Annem   | L0: Khushi Malhothra<br>L1: Mukul Joshi<br>L2: Piyush Upadhyay | Priyanshu     | Khushi Malhothra | Mukul Joshi | Piyush Upadhyay  |
 
 
 # React Documentation
