@@ -6,22 +6,11 @@
 
 | Date       | Version | Description              | Changed By     | Reviewer Level | Reviewer Name       |
 |------------|---------|--------------------------|----------------|----------------|----------------------|
-| April 18   | v1.0    | Initial Draft            | Anitha Annem   | Pre-Reviewer   | Priyanshu            |
-|            |         |                          |                | L0             | Khushi Malhothra     |
-|            |         |                          |                | L1             | Mukul Joshi          |
-|            |         |                          |                | L2             | Piyush Upadhyay      |
 | April 19   | v1.1    | Updated documentation.md | Anitha Annem   | Pre-Reviewer   | Priyanshu            |
-|            |         |                          |                | L0             | Aryan Gupta          |
+| April 23   | v2.1    | Updated documentation.md | Anitha Annem   | L0             | Khushi Malothra      |
 |            |         |                          |                | L1             | Tanvi Sharma         |
 |            |         |                          |                | L2             | Rohan Mehra          |
-| April 20   | v1.2    | Updated documentation.md | Anitha Annem   | Pre-Reviewer   | Priyanshu            |
-|            |         |                          |                | L0             | Sneha Verma          |
-|            |         |                          |                | L1             | Aakash Singh         |
-|            |         |                          |                | L2             | Neha Reddy           |
-| April 24   | v1.3    | Updated documentation.md | Anitha Annem   | Pre-Reviewer   | Priyanshu            |
-|            |         |                          |                | L0             | Rahul Sen            |
-|            |         |                          |                | L1             | Isha Kapoor          |
-|            |         |                          |                | L2             | Karan Patel          |
+
 
 
 # React Documentation
