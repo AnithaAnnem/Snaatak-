@@ -4,12 +4,12 @@
 ![image](https://github.com/user-attachments/assets/4702fe89-7a74-4585-98f4-ee2b51be1a34)
 
 
-| Author        | Date       | Version | Reviewer Level | Reviewer Name       |
+| Author        | Date       | Version | Review Level   | Reviewer Name        |
 |---------------|------------|---------|----------------|----------------------|
 | Anitha Annem  | April 20   | v1.1    | Pre-Reviewer   | Priyanshu            |
 | Anitha Annem  | April 24   | v2.1    | L0             | Khushi Malothra      |
-|               |            |         | L1             | Rishabh Sharma        |
-|               |            |         | L2             | piyush Upadhyay          |
+| Anitha Annem  |            |         | L1             | Rishabh Sharma       |
+| Anitha Annem  |            |         | L2             | piyush Upadhyay      |
 
 # React Documentation
 
