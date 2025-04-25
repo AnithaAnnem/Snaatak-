@@ -1,11 +1,11 @@
 ![image](https://github.com/user-attachments/assets/b66a9e29-b167-4e32-bd6e-b33c8e8ab444)
 
-| Date       | Version | Description              | Changed By             | Pre-Reviewer        | L0               | L1              | L2               |
-|------------|---------|--------------------------|-------------------------|---------------------|------------------|------------------|------------------|
-| April 16   | v1.0    | Initial Draft            | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
-| April 19   | v1.1    | Updated documentation.md | Anitha Annem   | Priyanshu                 | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
-| April 20   | v1.2    | Updated documentation.md | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
-| April 24   | v1.3    | Updated documentation.md | Anitha Annem   | Priyanshu                   | Khushi Malhothra | Mukul joshi    | Piyush Upadhyay  |
+| Author        | Date       | Version | Review Level   | Reviewer Name        |
+|---------------|------------|---------|----------------|----------------------|
+| Anitha Annem  | April 20   | v1.1    | Pre-Reviewer   | Priyanshu            |
+| Anitha Annem  | April 24   | v2.1    | L0             | Khushi Malothra      |
+| Anitha Annem  |            |         | L1             | Rishabh Sharma       |
+| Anitha Annem  |            |         | L2             | piyush Upadhyay      |
 
 
 # Table of Contents
