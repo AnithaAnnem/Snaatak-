@@ -26,8 +26,8 @@
   - [ Testing the Staging Environment](#testing-the-staging-environment)
   - [ Approval and Production Deployment](#approval-and-production-deployment)
 - [Using tags with playbook](#using-tags-with-playbook)
-- [ Contact Information](#-contact-information)
-- [ References](#-references)
+- [Contact Information](#-contact-information)
+- [References](#-references)
 
 # Introduction 
 
@@ -38,17 +38,11 @@ This document provides an overview of setting up a Continuous Deployment (CD) Wo
 
 An Ansible Playbook is a YAML file that defines a set of automation tasks to be run on remote systems. It tells Ansible what to do, where to do it, and how.
 
-**Example:**
+Introduction to Ansible Playbook
 
-```yaml
-- name: Deploy my app
-  hosts: webservers
-  tasks:
-    - name: Pull latest code
-      git:
-        repo: "https://github.com/example/app.git"
-        dest: "/var/www/app"
- ```
+For more related to the Ansible Playbook Refer this link 
+[Ansible Playbook](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_scrum49/commonstack/ansible/playbook/intro.md)
+
 
 # **What is a CD (Continuous Deployment) Workflow?**  
 
@@ -71,15 +65,7 @@ In this first stage, the goal is to get the latest version of the code from a re
   
 - **Branch Handling**: Depending on the CD pipeline and your branching strategy (e.g., Git Flow or Trunk-based development), you may need to select the correct branch to deploy. Often, the staging branch is merged first into the main branch for production deployment.
 
-### Example in Ansible:
 
-```yaml
-- name: Checkout the latest code from the repository
-  git:
-    repo: 'https://github.com/example/app.git'
-    dest: /var/www/app
-    version: "main"  # Checkout the 'main' branch (or staging if desired)
- ```
 
 ##  Build and Package the Application
 
@@ -92,19 +78,6 @@ After checking out the latest code, the next step is to build or package the app
 
 - **Install Dependencies**: This often includes installing libraries or tools the application needs to run (e.g., `npm install`, `pip install`, etc.).
 
-### Example in Ansible:
-
-```yaml
-- name: Install dependencies
-  shell: npm install
-  args:
-    chdir: /var/www/app
-
-- name: Build the application
-  shell: npm run build
-  args:
-    chdir: /var/www/app
- ```
 
 ##  Deploying the Application to Staging
 
@@ -115,23 +88,8 @@ Once the code is built and packaged, the next step is to deploy the application 
   
 - **Service Restart**: If needed, you may need to restart web servers, background workers, or other services that serve the application.
 
-### Example in Ansible:
 
-```yaml
-- name: Deploy the app to staging environment
-  copy:
-    src: /var/www/app/build/
-    dest: /var/www/staging_app/
-  notify:
-    - Restart web server
 
-- name: Restart staging web server
-  systemd:
-    name: nginx
-    state: restarted
- ```
-
-Here, Ansible copies the built application to the staging server and then restarts the web server (nginx, apache, etc.) to pick up the new code.
 
 
 ##  Testing the Staging Environment
@@ -145,21 +103,7 @@ Once the application is deployed to the staging environment, you want to test it
 
 - **Smoke Tests**: These are simple checks to confirm that the basic functionality of the app is working, like checking if the homepage loads.
 
-### Example in Ansible:
 
-```yaml
-- name: Check if staging app is running
-  uri:
-    url: "http://staging-app.local"
-    status_code: 200
-  register: result
-
-- name: Run smoke tests
-  shell: ./run_smoke_tests.sh
-  args:
-    chdir: /var/www/staging_app
-  when: result.status == 200
- ```
 
 ##  Approval and Production Deployment
 
@@ -170,20 +114,23 @@ Once the application passes all tests in the staging environment, the deployment
   
 - **Production Deployment**: Deploy the application to the production servers after approval.
 
-### Example in Ansible:
-If the approval is automatic, the playbook can trigger production deployment:
+## Summary of Testing Workflow
 
-```yaml
-- name: Deploy to production environment
-  copy:
-    src: /var/www/staging_app/
-    dest: /var/www/production_app/
+| **Stage**                          | **Testing Type**             | **Purpose**                                               |
+|-------------------------------------|------------------------------|-----------------------------------------------------------|
+| **Code Checkout and Branching**     | Linting / Static Code Analysis | Ensure code style and structure are correct before proceeding |
+|                                     | Unit Testing                 | Verify individual components/functions work as expected    |
+|                                     | Dependency Audit             | Check for known vulnerabilities in packages                |
+| **Build and Package Application**   | Build Verification           | Ensure code compiles/builds without errors                 |
+|                                     | Integration Testing          | Validate interaction between modules or services           |
+| **Deploying to Staging**            | Smoke Testing                | Confirm app runs and critical paths are working            |
+|                                     | Service Validation           | Ensure Nginx, database, or backend APIs are responding correctly |
+| **Testing the Staging Environment** | End-to-End (E2E) Testing     | Test complete flows from the user's perspective           |
+|                                     | Regression Testing           | Confirm new changes don’t break existing features          |
+|                                     | Health Checks                | Automated checks for uptime, response time, etc.           |
+| **Approval & Prod Deployment**     | Final Sanity / Smoke Tests   | Lightweight manual or automated check before final deployment |
 
-- name: Restart production web server
-  systemd:
-    name: nginx
-    state: restarted
- ```
+
 
 
 
