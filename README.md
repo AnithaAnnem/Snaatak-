@@ -15,17 +15,25 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Installing Java on macOS ](#installing-java-on-macos)
-4. [Installing Java on Linux ](#installing-java-on-linux)
-5. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [References ](#references)
+3. [What is Java?](#what-is-java?)
+4. [Installing Java on macOS ](#installing-java-on-macos)
+5. [Installing Java on Linux ](#installing-java-on-linux)
+6. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [References ](#references)
 
 
 
 # Introduction 
 This document covers the stp by step installation of the java in different operating systems and configurig environment variables
+
+# What is Java?
+Java is a high-level object oriented programming language
+
+For more related to java introduction refer this link  
+
+[Java Introduction](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_scrum23/commonstack/applications/java/introduction/intro.md)
 
 
 
@@ -41,10 +49,6 @@ Before installing Java, ensure that you have the following:
 
 
 
-
-## For more related to java follow this link 
-
-https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_scrum23/commonstack/applications/java/introduction/intro.md
 
 
 # Installing Java on macOS 
