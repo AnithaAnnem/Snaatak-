@@ -29,9 +29,6 @@
 In this documentation The SOP provides a clear and consistent process for managing services on Ubuntu using the systemctl command. 
 
 
-# Purpose
-
-This SOP provides standardized procedures for managing services (start, stop, restart, enable, disable, check status) on Ubuntu OS.
 
 
 # Prerequisites
@@ -142,9 +139,7 @@ To ensure the successful management of the service on Ubuntu, the following prer
 
 # Conclusion 
 
-This SOP provides a clear and consistent process for managing services on Ubuntu using the systemctl command. By following the outlined steps, users can efficiently start, stop, restart, enable, disable, and check the status of services, ensuring smooth operation of the system. The procedures promote consistency, improve productivity, and reduce the risk of errors during service management tasks.
-With proper prerequisites met and troubleshooting tips in place, this SOP serves as a reliable guide for both new and experienced users to maintain and manage services on Ubuntu systems effectively.
-
+This SOP provides a clear and consistent process for managing services on Ubuntu using the systemctl command. By following the outlined steps, users can efficiently start, stop, restart, enable, disable, and check the status of services, ensuring smooth operation of the system. 
 
 
 # Contact Information
