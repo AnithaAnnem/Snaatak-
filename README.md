@@ -77,13 +77,6 @@ The purpose of a Python virtual environment is to:
 
 
 
-
-
-## For Prerequisites and Troubleshooting refer this link
-
-https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu_scrum16/commonstack/applications/python/virtualenv/sop.md
-
-
 # 6. Best Practices 
 
 | Best Practice                                      | Description                                                                                     |
@@ -94,6 +87,13 @@ https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu_scrum16/commo
 | Avoid installing unnecessary packages globally     | Always install project-specific packages inside a virtual environment.                          |
 | Delete unused environments to free up space        | Clean up environments from old or unused projects to save disk space.                           |
 | Use `deactivate` when switching contexts           | Deactivate the current environment before activating another to avoid conflicts.                |
+
+
+##  Virtual Environment Set UP
+ For setting UP Virtual environment Please refer this document.
+[Python Virtual Environment] (https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu_scrum16/commonstack/applications/python/virtualenv/sop.md)
+
+
 
 
 
