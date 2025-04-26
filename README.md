@@ -15,7 +15,7 @@
 4. [ Purpose](#4-purpose)
 5. [ Setting Up a Virtual Environment](#5-setting-up-a-virtual-environment)
 6. [ Best Practices](#6-best-practices)
-7. Virtual Environment Set UP(#virtual-environment-set-up)
+7. Virtual Environment Set UP(#-virtual-environment-set-up)
 8. [Conclusion](#7-conclusion)
 9. [Contact Information](#8-Contact-information)
 10. [ References](#9-references)
