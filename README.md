@@ -90,51 +90,13 @@ React helps teams build applications that are **fast**, **interactive**, and **e
 
 # Key Features of React
 
-### 5.1 JSX (JavaScript XML)
-
-**JSX** is a syntax extension that looks like HTML but is used inside JavaScript. It allows you to write HTML-like code directly within JavaScript, making the code more readable and easier to visualize.
-
-### Benefits of JSX:
-
--  **Makes the code more readable** – JSX combines the structure and logic in one place, making it easier to understand.
--  **Helps visualize UI structures clearly** – JSX provides a clear visual representation of the UI components.
-
-### 5.2 Component-Based Architecture
-
-React applications are built using **components**, which are **reusable**, **self-contained blocks of UI**. Components help break down the UI into smaller, manageable pieces that can be reused throughout the application. Each component manages its own **state** and **props**.
-
-
-### Benefits of Component-Based Architecture:
-
--  **Reusability**: Components can be reused across different parts of the application.
--  **Maintainability**: Smaller, self-contained components are easier to manage and debug.
-
-### 5.3 Virtual DOM
-
-React uses a **Virtual DOM** to optimize rendering and improve application performance. Instead of updating the browser’s DOM directly, React maintains a lightweight copy of the DOM, known as the **Virtual DOM**. When there is a change, React first updates the Virtual DOM and then calculates the difference (called **diffing**). Once the difference is determined, React efficiently updates the actual browser DOM.
-
-This process makes updates faster and more efficient, as React minimizes the number of changes made to the actual DOM, which can be a slow process.
-
-### Benefits of the Virtual DOM:
--  **Faster Updates**: Only the changed parts of the UI are updated, making React applications more responsive.
--  **Efficient Rendering**: React calculates the minimal set of changes required to update the DOM, improving performance.
-
-
-### 5.4 One-Way Data Binding
-
-React follows **unidirectional data flow**, meaning that data flows from **parent to child components** via **props**. This approach makes state management more predictable and easier to track. When data flows in one direction, it is simpler to debug and understand how the state changes across the application.
-
-In a typical React application, the **parent component** holds the state and passes it down to child components as props. Child components can access and use the data but cannot directly modify it. Instead, they can notify the parent component of changes via **callback functions** or **events**.
-
-### Benefits of One-Way Data Binding:
--  **Predictable state flow**: Easier to trace how data changes through the app, improving maintainability.
--  **Debugging made easier**: With a clear direction of data flow, debugging becomes more straightforward.
--  **Clear separation of concerns**: Components are responsible only for their own logic and data, making them more reusable.
-
-
-### 5.5 React Hooks
-
-**Hooks** are functions introduced in React 16.8 that allow you to use state and other React features in **function components**. Prior to hooks, these features were only available in class components. Hooks make it easier to write and manage functional components by enabling you to use state, side effects, context, and more without writing a class.
+| **Feature**                     | **Description**                                                                                                                                                                                                                             | **Benefits**                                                                                                                                                                      |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **JSX (JavaScript XML)**       | A syntax extension that allows writing HTML-like code directly inside JavaScript. It’s transpiled into `React.createElement` calls under the hood.                                                 | - Makes code more readable<br>- Helps visualize UI structure clearly                                                                                                              |
+| **Component-Based Architecture** | React apps are made of reusable, self-contained components that manage their own `state` and receive `props` from parents. They help break UI into manageable pieces.                             | - Reusability across the app<br>- Easier to maintain and debug                                                                                                                    |
+| **Virtual DOM**                | A lightweight copy of the actual DOM. React updates the Virtual DOM, calculates differences (diffing), and efficiently updates only the necessary parts of the real DOM.                           | - Faster updates<br>- Efficient rendering                                                                                                                                         |
+| **One-Way Data Binding**       | Data flows in one direction—**from parent to child** via `props`. Children notify parents of changes using callbacks or events.                                                                    | - Predictable state flow<br>- Easier debugging<br>- Clear separation of concerns                                                                                                 |
+| **React Hooks**                | Functions that let you use state, side effects, and other React features in function components—introduced in React 16.8.                                                                           | - Enables use of state and side effects in functions<br>- Simplifies code<br>- Encourages reuse through custom hooks                                                             |
 
 
 
