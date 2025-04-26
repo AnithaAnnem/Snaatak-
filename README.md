@@ -26,8 +26,8 @@
   - [ Testing the Staging Environment](#testing-the-staging-environment)
   - [ Approval and Production Deployment](#approval-and-production-deployment)
 - [Using tags with playbook](#using-tags-with-playbook)
-- [Contact Information](#-contact-information)
-- [References](#-references)
+- [Contact Information](#contact-information)
+- [References](#references)
 
 # Introduction 
 
