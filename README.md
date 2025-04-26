@@ -15,7 +15,7 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [What is Java?](#what-is-java-?)
+3. [What is Java](#what-is-java)
 4. [Installing Java on macOS ](#installing-java-on-macos)
 5. [Installing Java on Linux ](#installing-java-on-linux)
 6. [Troubleshooting Java Installation Issues ](#troubleshooting-java-installation-issues)
