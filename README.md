@@ -5,8 +5,8 @@
 
 | Author        | Date       | Version | Review Level   | Reviewer Name        |
 |---------------|------------|---------|----------------|----------------------|
-| Anitha Annem  | April 20   | v1.1    | Pre-Reviewer   | Priyanshu            |
-| Anitha Annem  | April 24   | v2.1    | L0             | Khushi Malothra      |
+| Anitha Annem  |    | v1.0    | Pre-Reviewer   | Priyanshu            |
+| Anitha Annem  |    |     | L0             | Khushi Malothra      |
 | Anitha Annem  |            |         | L1             | Rishabh Sharma       |
 | Anitha Annem  |            |         | L2             | piyush Upadhyay      |
 
