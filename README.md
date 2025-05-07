@@ -61,19 +61,6 @@ In this first stage, the goal is to get the latest version of the code from a re
 - **Branch Handling**: Depending on the CD pipeline and your branching strategy (e.g., Git Flow or Trunk-based development), you may need to select the correct branch to deploy. Often, the staging branch is merged first into the main branch for production deployment.
 
 
-
-##  Build and Package the Application
-
-After checking out the latest code, the next step is to build or package the application. This could involve compiling code, building a frontend app, creating Docker images, or preparing deployment artifacts.
-
-### Tasks in this stage:
-- **Compile and Build**: If you're working with Java, Node.js, or another compiled language, you'll want to compile the source code.
-
-- **Package**: Some applications need to be packaged into a deployable artifact, like a .tar.gz file, .deb, .rpm, Docker image, or .zip archive.
-
-- **Install Dependencies**: This often includes installing libraries or tools the application needs to run (e.g., `npm install`, `pip install`, etc.).
-
-
 ##  Deploying the Application to Staging
 
 Once the code is built and packaged, the next step is to deploy the application to the staging environment. The staging environment mimics production, but it’s a safe place for testing without affecting actual users.
@@ -85,18 +72,26 @@ Once the code is built and packaged, the next step is to deploy the application 
 
 
 
-
-
 ##  Testing the Staging Environment
 
 Once the application is deployed to the staging environment, you want to test it to ensure that everything is working as expected. This can be both automated tests (unit, integration) or manual tests.
 
 ### Tasks in this stage:
-- **Automated Testing**: Running unit tests, integration tests, or end-to-end tests in staging.
+#### **Automated Testing**
 
-- **Health Checks**: Ensuring that the application is up and running and accessible via the correct ports.
+These are pre-written tests that automatically check whether parts of your application work correctly. There are different types:
 
-- **Smoke Tests**: These are simple checks to confirm that the basic functionality of the app is working, like checking if the homepage loads.
+- **Unit tests**: Check individual components or functions.
+- **Integration tests**: Verify that different parts of the system work together.
+- **End-to-end tests**: Simulate real user behavior to ensure the entire system functions as expected.
+
+#### Health Checks
+
+These are simple checks to confirm that the application is up, running, and reachable. For example, the system might check if a web service is responding on a specific port or if a database connection can be established.
+
+#### Smoke Tests
+
+These are basic tests to ensure that the core functions of the app work right after deployment. For instance, checking that the homepage loads, login works, or a key API responds correctly. It’s a quick way to catch major issues before deeper testing.
 
 
 
@@ -113,11 +108,6 @@ Once the application passes all tests in the staging environment, the deployment
 
 | **Stage**                          | **Testing Type**             | **Purpose**                                               |
 |-------------------------------------|------------------------------|-----------------------------------------------------------|
-| **Code Checkout and Branching**     | Linting / Static Code Analysis | Ensure code style and structure are correct before proceeding |
-|                                     | Unit Testing                 | Verify individual components/functions work as expected    |
-|                                     | Dependency Audit             | Check for known vulnerabilities in packages                |
-| **Build and Package Application**   | Build Verification           | Ensure code compiles/builds without errors                 |
-|                                     | Integration Testing          | Validate interaction between modules or services           |
 | **Deploying to Staging**            | Smoke Testing                | Confirm app runs and critical paths are working            |
 |                                     | Service Validation           | Ensure Nginx, database, or backend APIs are responding correctly |
 | **Testing the Staging Environment** | End-to-End (E2E) Testing     | Test complete flows from the user's perspective           |
