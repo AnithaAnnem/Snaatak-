@@ -33,15 +33,10 @@
 
 This document provides an overview of setting up a Continuous Deployment (CD) Workflow using Ansible Playbooks.The playbooks also utilize tags to selectively run specific tasks, providing flexibility in managing the deployment pipeline. 
 
-
 # **What is an Ansible Playbook?**  
 
 An Ansible Playbook is a YAML file that defines a set of automation tasks to be run on remote systems. It tells Ansible what to do, where to do it, and how.
-
-Introduction to Ansible Playbook
-
-For more information related to the Ansible Playbook Refer this link 
-[Ansible Playbook](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_scrum49/commonstack/ansible/playbook/intro.md)
+Introduction to Ansible Playbook for more information related to the Ansible Playbook Refer this link [Ansible Playbook](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_scrum49/commonstack/ansible/playbook/intro.md)
 
 
 # **What is a CD (Continuous Deployment) Workflow?**  
