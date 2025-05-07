@@ -40,7 +40,7 @@ An Ansible Playbook is a YAML file that defines a set of automation tasks to be 
 
 Introduction to Ansible Playbook
 
-For more related to the Ansible Playbook Refer this link 
+For more information related to the Ansible Playbook Refer this link 
 [Ansible Playbook](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_scrum49/commonstack/ansible/playbook/intro.md)
 
 
