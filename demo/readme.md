@@ -23,7 +23,7 @@
 ```
 
 **Anitha**
-
+```
 
   ├── Design Monitoring
   │     ├── Design Infra Monitoring
@@ -43,10 +43,10 @@
               ├── Divergence Management (Understanding)
               └── Divergence Management (POC)
 
-
+```
 
 **Himanshu**
-
+```
   ├── Implement Dev/QA Infra via tf Modules
   │     ├── DSL Jenkins Pipeline for Dev Env
   │     │     ├── Frontend Setup (Dev)
@@ -63,11 +63,11 @@
   └── Design CD
         └── Deployment Strategies
               └── Documentation
-
+```
 
 
 **Pravalika**
-
+```
   ├── Design Monitoring
   │     ├── Design ScyllaDB & PostgreSQL Monitoring
   │     │     ├── Documentation: Identify Key Performance Metrics & Requirements
@@ -84,10 +84,10 @@
         └── Terraform
               ├── Documentation: Terraform Unit Test
               └── POC: Terraform Unit Test
-
+```
 
 **Shrey**
-
+```
   ├── Implement Dev/QA Infra via tf Modules
   │     ├── Shared Library for tf Wrapper Code Execution
   │     │     ├── Documentation
@@ -103,9 +103,9 @@
               ├── Understanding
               ├── Tools
               └── POC
-
+```
 **Shubham**
-
+```
   ├── Design CD
   │     ├── Deployment Strategies
   │     │     └── Documentation
@@ -123,9 +123,9 @@
               ├── Documentation: Alerting Rules & Process (Middleware)
               └── POC: Achieving Metrics for Middleware Monitoring
 
-
+```
 **Tharik**
-
+```
 
   ├── Implement Dev/QA Infra via tf Modules
   │     ├── Shared Library for Terraform Module CI/CD
@@ -140,8 +140,9 @@
         └── Design Document for Immutable Infra Rollout
               ├── Blue Green Strategy
               └── Rolling Strategy
+```
 **Rajeev**
-
+```
   └── Implement Dev/QA Infra via tf Modules
         ├── Terraform Module for Standalone VM
         │     ├── Subtasks: Create module for standalone VM
@@ -157,9 +158,10 @@
               ├── Subtasks: App-specific wrapper scripts (attendance, salary, etc.)
               ├── Acceptance: CLI-based execution, folder standards
               ├── Comment: Wrapper logic demo
-              └── Assignee: Rajeev
+              
+```
 **Aditya**
-
+```
   └── Implement Dev/QA Infra via tf Modules
         ├── Terraform Module: Network Skeleton
         │     ├── Sub Task: Create module for network skeleton
@@ -199,3 +201,4 @@
         │     └── Assignee: Aditya
         └── DSL Jenkins Pipeline for Dev Setup
               ├── Network Skeleton
+```
