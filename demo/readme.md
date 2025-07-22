@@ -143,62 +143,45 @@
 ```
 **Rajeev**
 ```
+  
   └── Implement Dev/QA Infra via tf Modules
-        ├── Terraform Module for Standalone VM
-        │     ├── Subtasks: Create module for standalone VM
-        │     ├── Acceptance: Static IP, naming conventions, metadata tags
-        │     ├── Comment: Demo for review
-        │     └── Assignee: Rajeev
+        ├── Terraform Module: Standalone VM
+        │     └── Sub Task: Create module for VM setup
         ├── DSL Jenkins Pipeline
-        │     ├── Subtasks: Create pipeline for app provisioning
-        │     ├── Acceptance: Folders per module, standard naming, parameters
-        │     ├── Comment: Jenkins integration demo
-        │     └── Assignee: Rajeev
-        └── Wrapper Code for Dev Env
-              ├── Subtasks: App-specific wrapper scripts (attendance, salary, etc.)
-              ├── Acceptance: CLI-based execution, folder standards
-              ├── Comment: Wrapper logic demo
+        │     ├── CI Pipeline for tf Standalone Module (using shared lib)
+        │     └── CD Pipeline for tf Standalone Module (using shared lib)
+        ├── Wrapper Code for Dev Env
+        │     ├── Attendance App (Dev)
+        │     ├── Employee App (Dev)
+        │     ├── Notification (Dev)
+        │     ├── ScyllaDB (Dev)
+        │     ├── Redis (Dev)
+        │     └── PostgreSQL (Dev)
+        └── DSL Jenkins Pipeline for Dev Env
+              ├── Attendance Setup (Dev)
+              └── Employee Setup (Dev)
+
               
 ```
 **Aditya**
 ```
+  
   └── Implement Dev/QA Infra via tf Modules
         ├── Terraform Module: Network Skeleton
-        │     ├── Sub Task: Create module for network skeleton
-        │     ├── Acceptance Criteria:
-        │     │     - Align setup with dev/qa infra diagram
-        │     │     - Use proper naming conventions by environment
-        │     │     - Maintain logical directory structure
-        │     ├── Comment:
-        │     │     - Demo for Pre & LO reviewers
-        │     │     - Use central account, not personal
-        │     └── Assignee: Aditya
+        │     └── Sub Task: Create module for Network Skeleton
         ├── Terraform Module: Autoscaling Setup
-        │     ├── Sub Task: Create module for autoscaling
-        │     ├── Acceptance Criteria:
-        │     │     - CI stages via shared lib: init, validate, plan
-        │     │     - Clear execution logs
-        │     ├── Comment: PR review + demo
-        │     └── Assignee: Aditya
+        │     └── Sub Task: Create module for Autoscaling Setup
         ├── DSL Jenkins Pipeline (CI/CD)
-        │     ├── CI for Network Skeleton
-        │     ├── CI for Autoscaling
-        │     ├── CD for Network Skeleton
-        │     └── CD for Autoscaling
-        │     ├── Acceptance Criteria:
-        │     │     - Use shared lib for all stages (init → destroy)
-        │     │     - Clear logs across pipeline
-        │     ├── Comment: PR review + demo
-        │     └── Assignee: Aditya
+        │     ├── CI Pipeline for Network Skeleton (Shared Lib)
+        │     ├── CI Pipeline for Autoscaling (Shared Lib)
+        │     ├── CD Pipeline for Network Skeleton (Shared Lib)
+        │     └── CD Pipeline for Autoscaling (Shared Lib)
         ├── Wrapper Code for Dev Environment
-        │     ├── For Network Skeleton
-        │     ├── For Frontend
-        │     └── For Salary App
-        │     ├── Acceptance Criteria:
-        │     │     - CLI-based deployment with standard variables/tags
-        │     │     - No execution errors
-        │     ├── Comment: PR review + demo
-        │     └── Assignee: Aditya
+        │     ├── Network Skeleton (Dev)
+        │     ├── Frontend (Dev)
+        │     └── Salary App (Dev)
         └── DSL Jenkins Pipeline for Dev Setup
-              ├── Network Skeleton
+              ├── Network Skeleton (Dev)
+              └── Frontend (Dev)
+
 ```
